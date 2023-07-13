@@ -1,0 +1,27 @@
+.bg-landing{
+    background: linear-gradient(116.82deg, #FFFFFF 12.86%, #EBFAFF 61.46%);
+    height: 100vh;
+}
+.logo{
+    width: 160px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.main-text {
+    color: var(--deepblue);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.child-text {
+    color: var(--deepblue);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-css {
+    background: linear-gradient(70.65deg, #003F67 37%, #00B4F1 92.84%) ;
+    height: 50px;
+}

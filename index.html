@@ -1,0 +1,1302 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<!-- Head -->
+	<head>
+		<title>Dashboard</title>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+		<!-- Web Fonts -->
+		<!-- Components Vendor Styles -->
+		<link rel="stylesheet" href="static/libs/bootstrap/dist/css/bootstrap.min.css" />
+		<!-- MDB-->
+		<link rel="stylesheet" href="static/libs/md-bootstrap/css/mdb.min.css" />
+		<link rel="stylesheet" href="static/libs/md-bootstrap/plugins/css/all.min.css" />
+		<!-- Icon SVG -->
+		<link rel="stylesheet" href="static/icon/themify/themify-icons.css?v=0.0.1">
+		<link rel="stylesheet" href="static/icon/icomoon/style.css?v=0.0.1">
+		<!-- Scrollbar -->
+		<link rel="stylesheet" href="static/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+		<!-- Fontawesome -->
+		<link rel="stylesheet" href="static/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<link rel="stylesheet" href="static/libs/fontawesome-free-6.4.0-web/css/all.min.css">
+		<!-- Theme Styles -->
+		<link rel="stylesheet" href="static/css/theme.css?v=0.0.60">
+		<link rel="stylesheet" href="static/css/main.css?v=0.0.8">
+		
+	</head>
+	<!-- End Head -->
+	<!-- Body -->
+	<body>
+
+		<!-- Header (Topbar) -->
+		<header class="u-header">
+			<!-- Header Left Section -->
+			<div class="u-header-left ">
+				<!-- Header Logo -->
+				<a class="u-header-logo" href="index.html">
+					<img class="u-header-logo__icon" src="static/svg/logo.svg" alt="Umay+">
+				</a>
+				<!-- End Header Logo -->
+			</div>
+			<!-- End Header Left Section -->
+
+			<!-- Header Middle Section -->
+			<div class="u-header-middle">
+				<!-- Sidebar Invoker -->
+				<div class="u-header-section ps-0">
+					<a class="js-sidebar-invoker u-header-invoker u-sidebar-invoker" href="#"
+					   data-is-close-all-except-this="true"
+					   data-target="#sidebar">
+						<span class="ti-align-left u-header-invoker__icon u-sidebar-invoker__icon--open"></span>
+						<span class="ti-align-justify u-header-invoker__icon u-sidebar-invoker__icon--close"></span>
+					</a>
+				</div>
+				<!-- End Sidebar Invoker -->
+
+				<!-- Header Search -->
+				<div class="u-header-section justify-content-sm-start flex-grow-1 py-0">
+
+				</div>
+				<!-- End Header Search -->
+
+				<!-- User Profile -->
+				<div class="u-header-section u-header-section--profile">
+					<div class="u-header-dropdown dropdown">
+						<a class="link-muted d-flex align-items-center" href="#" role="button" id="userProfileInvoker" aria-haspopup="true" aria-expanded="false"
+						   data-toggle="dropdown"
+						   data-offset="0">
+							<img class="u-header-avatar img-fluid rounded-circle mr-md-3" src="static/images/avatars/user-unknown.jpg" alt="User Profile">
+							<span class="text-dark d-none d-md-inline-flex align-items-center">
+								Administator
+								<span class="ti-angle-down text-muted ml-4 fs-16"></span>
+							</span>
+						</a>
+
+						<div class="u-header-dropdown__menu dropdown-menu dropdown-menu-right" aria-labelledby="userProfileInvoker" style="width: 260px;">
+							<div class="card p-3">
+								<div class="card-body p-0">
+									<ul class="list-unstyled mb-0">
+										<li class="mb-3">
+											<a class="link-dark" href="#">View Profile</a>
+										</li>
+										<li class="mb-3">
+											<a class="link-dark" href="#">Settings</a>
+										</li>
+										<li>
+											<a class="link-dark" href="#">Sign Out</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End User Profile -->
+			</div>
+			<!-- End Header Middle Section -->
+		</header>
+		<!-- End Header (Topbar) -->
+		<!-- Main -->
+		<main class="u-main">
+			<!-- Sidebar -->
+			<aside id="sidebar" class="u-sidebar">
+				<div class="u-sidebar-inner">
+					<!-- Sidebar Header -->
+					<header class="u-sidebar-header">
+						<!-- Sidebar Logo -->
+						<a class="u-sidebar-logo" href="index.html">
+							<img class="u-sidebar-logo__icon" src="static/svg/logo.svg" alt="Umay+">
+							<img class="u-sidebar-logo__text" src="static/svg/logo.svg" alt="Umay+">
+						</a>
+						<!-- End Sidebar Logo -->
+					</header>
+					<!-- End Sidebar Header -->
+
+					<!-- Sidebar Nav -->
+					<nav class="u-sidebar-nav">
+						<!-- Sidebar Nav Menu -->
+						<ul class="u-sidebar-nav-menu u-sidebar-nav-menu--top-level">
+							<!-- Dashboard -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link active" href="index.html">
+									<span class="icon-dashboard-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Dashboard</span>
+								</a>
+							</li>
+							<!-- End Dashboard -->
+							<!-- Heatmap -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="heatmap.html">
+									<span class="icon-heatmap-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Heatmap</span>
+								</a>
+							</li>
+							<!-- End Heatmap -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Website</small>
+							</li>
+
+							<!-- Promotions -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#"
+								   data-target="#menuItemPromotion">
+									<span class="icon-promotion-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Promotions</span>
+									<span class="ti-angle-down u-sidebar-nav-menu__item-arrow"></span>
+								</a>
+
+								<ul id="menuItemPromotion" class="u-sidebar-nav-menu u-sidebar-nav-menu--second-level" style="display: none;">
+									<!-- Lists -->
+									<li class="u-sidebar-nav-menu__item">
+										<a class="u-sidebar-nav-menu__link" href="#">
+											<span class="u-sidebar-nav-menu__item-icon"></span>
+											<span class="u-sidebar-nav-menu__item-title">Lists</span>
+										</a>
+									</li>
+									<!-- End Lists -->
+								</ul>
+							</li>
+							<!-- End Promotions -->
+
+							<!-- News & Activities -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-news-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">News & Activities</span>
+								</a>
+							</li>
+							<!-- End News & Activities -->
+
+							<!-- Blog -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="forms.html">
+									<span class="icon-blog-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Blog</span>
+								</a>
+							</li>
+							<!-- End Blog -->
+
+							<!-- Video -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="tables.html">
+									<span class="icon-video-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Video</span>
+								</a>
+							</li>
+							<!-- End Video -->
+
+							<!-- Header -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#"
+								   data-target="#menuItemAccountPages">
+									<span class="icon-header-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Header</span>
+								</a>
+							</li>
+							<!-- End Header -->
+
+							<!-- Footer -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-footer-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Footer</span>
+								</a>
+							</li>
+							<!-- End Footer -->
+
+							<!-- Banner -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-banner-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Banner</span>
+								</a>
+							</li>
+							<!-- End Banner -->
+
+							<!-- Pages -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-pages-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Pages</span>
+								</a>
+							</li>
+							<!-- End Pages -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Management</small>
+							</li>
+
+							<!-- Category -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-category-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Category</span>
+								</a>
+							</li>
+							<!-- End Category -->
+
+							<!-- Tag -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-tag-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Tag</span>
+								</a>
+							</li>
+							<!-- End Tag -->
+
+							<!-- Media -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-media-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Media</span>
+								</a>
+							</li>
+							<!-- End Media -->
+
+							<!-- Landing Popup -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-landingPopup-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Landing Popup</span>
+								</a>
+							</li>
+							<!-- End Landing Popup -->
+
+							<!-- PDPA -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-pdpa-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">PDPA</span>
+								</a>
+							</li>
+							<!-- End PDPA -->
+
+							<!-- Bitly -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-bitly-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Bitly</span>
+								</a>
+							</li>
+							<!-- End Bitly -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Settings</small>
+							</li>
+
+							<!-- Custom CSS Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom CSS Code</span>
+								</a>
+							</li>
+							<!-- End Custom CSS Code -->
+
+							<!-- Custom JS Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom JS Code</span>
+								</a>
+							</li>
+							<!-- End Custom JS Code -->
+
+							<!-- Custom GA4 Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom GA4 Code</span>
+								</a>
+							</li>
+							<!-- End Custom GA4 Code -->
+
+							<!-- Facebook Chatbox -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-facebook-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Facebook Chatbox</span>
+								</a>
+							</li>
+							<!-- End Facebook Chatbox -->
+
+							<!-- Sitemap & Robots -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-sitemap-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Sitemap & Robots</span>
+								</a>
+							</li>
+							<!-- End Sitemap & Robots -->
+
+							<!-- Maintenance Mode -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-maintenance-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Maintenance Mode</span>
+								</a>
+							</li>
+							<!-- End Maintenance Mode -->
+
+						</ul>
+						<!-- End Sidebar Nav Menu -->
+					</nav>
+					<!-- End Sidebar Nav -->
+				</div>
+			</aside>
+			<!-- End Sidebar -->
+
+			<!-- Content -->
+			<div class="u-content">
+
+				<!-- Body -->
+				<div class="u-body-top py-5 position-absolute w-100">
+					<div class="row mb-5">
+						<div class="col-sm-12 col-xl-3">
+							<h1 class="h2 mb-2 px-3 text-white h-title fw-bold">Dashboard</h1>
+						</div>
+		
+						<div class="col-sm-12 col-xl-9 text-end">
+							<span class="px-3 text-white text-end font-weight-medium">Date : <span>01/04/2023 - 05/04/2023</span></span>
+							<a href="#dateFilterModalCenter" data-toggle="modal" class="btn btn-sm btn-white btn-with-icon text-uppercase mb-2 mr-2 mr-md-2">
+					            <span class="btn-icon ti-calendar mr-2"></span>
+					            Date Filter
+				            </a>
+				            <a href="#" class="btn btn-sm btn-white btn-with-icon text-uppercase mb-2 mr-2 mr-md-2">
+					            <i class="btn-icon fa-solid fa-arrow-up-right-from-square mr-2"></i>
+					            Export
+				            </a>
+						</div>
+					</div>
+				</div>
+				<!-- End Body -->
+				<!-- Content Body -->
+				<div class="u-body mt-11 mt-xl-10">
+
+					<!-- xxx -->
+					<div class="row mt-11 mt-xl-0">
+						<div class="col-sm-6 col-xl-6 mb-5">
+							<!-- Card -->
+							<div class="card rounded">
+								<!-- Card Body -->
+								<div class="card-body px-3">
+									<!-- Chart with Info -->
+									<div class="media align-items-center py-2">
+										<i class="fa-solid fa-arrow-up-right-from-square text-blue"></i>
+										<!-- Chart with Info - Info -->
+										<div class="media-body ms-3">
+											<h5 class="text-muted mb-0 font-weight-normal fs-18">Sessions</h5>
+											<span class="h2 font-weight-medium mb-0 fs-24">171,899 <span class="text-success ms-2 fs-18">
+												<i class="fa-solid fa-arrow-up fs-12"></i> 5.4%</span></span>
+										</div>
+										<!-- End Chart with Info - Info -->
+
+										<!-- Chart with Info - Chart -->
+										<div class="text-right ml-2 w-65 bg-light-grey rounded" >
+											<div class="mb-2">
+												<canvas class="js-area-chart-small"
+												        width="100"
+												        height="20"
+												        data-extend='[{
+																	"data": [20, 0, 40, 40, 100, 60, 100, 90, 80],
+                                  "borderColor": "#444bf8"
+																}]'></canvas>
+											</div>
+										</div>
+										<!-- End Chart with Info - Chart -->
+									</div>
+									<!-- End Chart with Info -->
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Card -->
+						</div>
+						<div class="col-sm-6 col-xl-6 mb-5">
+							<!-- Card -->
+							<div class="card rounded">
+								<!-- Card Body -->
+								<div class="card-body px-3">
+									<!-- Chart with Info -->
+									<div class="media align-items-center py-2">
+										<i class="fa-solid fa-arrow-up-right-from-square text-blue"></i>
+										<!-- Chart with Info - Info -->
+										<div class="media-body ms-3">
+											<h5 class="text-muted mb-0 font-weight-normal fs-18">User</h5>
+											<span class="h2 font-weight-medium mb-0 fs-24">5,897 <span class="text-danger ms-2 fs-18">
+												<i class="fa-solid fa-arrow-down fs-12"></i> 5.4%</span></span>
+										</div>
+										<!-- End Chart with Info - Info -->
+
+										<!-- Chart with Info - Chart -->
+										<div class="text-right ml-2 w-65 bg-light-grey rounded" >
+											<div class="mb-2">
+												<canvas class="js-area-chart-small"
+												        width="100"
+												        height="20"
+												        data-extend='[{
+																	"data": [20, 0, 40, 40, 100, 60, 100, 90, 80],
+                                  "borderColor": "#F44336"
+																}]'></canvas>
+											</div>
+										</div>
+										<!-- End Chart with Info - Chart -->
+									</div>
+									<!-- End Chart with Info -->
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Card -->
+						</div>
+					</div>
+					<!-- End xxx -->
+					<!-- Chart -->
+					<div class="row">
+						<div class="col-6 col-xl-2x mb-5">
+							<!-- Card -->
+							<div class="card rounded">
+								<!-- Card Body -->
+								<div class="card-body px-3 py-2">
+									<!-- Chart with Info -->
+									<div class="media align-items-center py-2">
+										<i class="fa-solid fa-arrow-up-right-from-square text-blue"></i>
+										<!-- Chart with Info - Info -->
+										<div class="media-body ms-3">
+											<h5 class="text-muted mb-0 font-weight-normal fs-18">Page Views</h5>
+											<span class="h2 font-weight-medium mb-0 fs-24">171,899 <span class="text-success ms-2 fs-18">
+												<i class="fa-solid fa-arrow-up fs-12"></i> 5.4%</span></span>
+										</div>
+										<!-- End Chart with Info - Info -->
+									</div>
+									<!-- End Chart with Info -->
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Card -->
+						</div>
+
+						<div class="col-6 col-xl-2x mb-5">
+							<!-- Card -->
+							<div class="card rounded">
+								<!-- Card Body -->
+								<div class="card-body px-3 py-2">
+									<!-- Chart with Info -->
+									<div class="media align-items-center py-2">
+										<i class="fa-solid fa-arrow-up-right-from-square text-blue"></i>
+										<!-- Chart with Info - Info -->
+										<div class="media-body ms-3">
+											<h5 class="text-muted mb-0 font-weight-normal fs-18">Pages/Sessions</h5>
+											<span class="h2 font-weight-medium mb-0 fs-24">5,897 <span class="text-danger ms-2 fs-18">
+												<i class="fa-solid fa-arrow-down fs-12"></i> 5.4%</span></span>
+										</div>
+										<!-- End Chart with Info - Info -->
+									</div>
+									<!-- End Chart with Info -->
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Card -->
+						</div>
+
+						<div class="col-6 col-xl-2x mb-5">
+							<!-- Card -->
+							<div class="card rounded">
+								<!-- Card Body -->
+								<div class="card-body px-3 py-2">
+									<!-- Chart with Info -->
+									<div class="media align-items-center py-2">
+										<i class="fa-solid fa-arrow-up-right-from-square text-blue"></i>
+										<!-- Chart with Info - Info -->
+										<div class="media-body ms-3">
+											<h5 class="text-muted mb-0 font-weight-normal fs-18">% New Sessions</h5>
+											<span class="h2 font-weight-medium mb-0 fs-24">5,897 <span class="text-success ms-2 fs-18">
+												<i class="fa-solid fa-arrow-up fs-12"></i> 5.4%</span></span>
+										</div>
+										<!-- End Chart with Info - Info -->
+									</div>
+									<!-- End Chart with Info -->
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Card -->
+						</div>
+
+						<div class="col-6 col-xl-2x mb-5">
+							<!-- Card -->
+							<div class="card rounded">
+								<!-- Card Body -->
+								<div class="card-body px-3 py-2">
+									<!-- Chart with Info -->
+									<div class="media align-items-center py-2">
+										<i class="fa-solid fa-arrow-up-right-from-square text-blue"></i>
+										<!-- Chart with Info - Info -->
+										<div class="media-body ms-3">
+											<h5 class="text-muted mb-0 font-weight-normal fs-18">New User</h5>
+											<span class="h2 font-weight-medium mb-0 fs-24">171,899 <span class="text-success ms-2 fs-18">
+												<i class="fa-solid fa-arrow-up fs-12"></i> 5.4%</span></span>
+										</div>
+										<!-- End Chart with Info - Info -->
+									</div>
+									<!-- End Chart with Info -->
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Card -->
+						</div>
+
+						<div class="col-6 col-xl-2x mb-5">
+							<!-- Card -->
+							<div class="card rounded">
+								<!-- Card Body -->
+								<div class="card-body px-3 py-2">
+									<!-- Chart with Info -->
+									<div class="media align-items-center py-2">
+										<i class="fa-solid fa-arrow-up-right-from-square text-blue"></i>
+										<!-- Chart with Info - Info -->
+										<div class="media-body ms-1">
+											<h5 class="text-muted mb-0 font-weight-normal fs-18">Avg. Sessions Duration</h5>
+											<span class="h2 font-weight-medium mb-0 fs-24">171,899 <span class="text-danger ms-2 fs-18">
+												<i class="fa-solid fa-arrow-down fs-12"></i> 5.4%</span></span>
+										</div>
+										<!-- End Chart with Info - Info -->
+									</div>
+									<!-- End Chart with Info -->
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Card -->
+						</div>
+
+					</div>
+					<!-- End Chart -->
+
+					<div class="row">
+						<div class="col-md-6 mb-5">
+							<!-- Age of Visitors Chart -->
+							<div class="card h-100 rounded">
+								<!-- Card Header -->
+								<header class="card-header d-flex align-items-center justify-content-between rounded">
+									<h2 class="h4 card-header-title fs-24 font-weight-medium">Age of Visitors</h2>
+								</header>
+								<!-- End Card Header -->
+
+								<!-- Card Body -->
+								<div class="card-body py-0">
+									<!-- Chart -->
+									<div class="mx-auto">
+										<canvas id="AgeChart"></canvas>
+									</div>
+									<!-- End Chart -->
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Age of Visitors Chart -->
+						</div>
+
+						<div class="col-md-6 mb-5">
+							<!-- Gender Chart -->
+							<div class="card h-100 rounded">
+								<!-- Card Header -->
+								<header class="card-header d-flex align-items-center justify-content-between rounded pb-0">
+									<h2 class="h4 card-header-title fs-24 font-weight-medium">Gender</h2>
+								</header>
+								<!-- End Card Header -->
+
+								<!-- Card Body -->
+								<div class="card-body py-0">
+									<!-- Chart -->
+									<div class="d-flex justify-content-center">
+										<div class="mx-auto">
+											<canvas id="GenderChart"></canvas>
+										</div>
+									</div>
+									<!-- End Chart -->
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Gender Chart -->
+						</div>
+
+						<div class="col-md-6 mb-5">
+							<!-- Users by Devices Chart -->
+							<div class="card h-100 rounded">
+								<!-- Card Header -->
+								<header class="card-header d-flex align-items-center justify-content-between rounded">
+									<h2 class="h4 card-header-title fs-24 font-weight-medium">Users by Devices</h2>
+								</header>
+								<!-- End Card Header -->
+
+								<!-- Card Body -->
+								<div class="card-body py-0">
+									<!-- Chart -->
+									<div class="mx-auto">
+										<canvas id="UsersByDevicesChart"></canvas>
+									</div>
+									<!-- End Chart -->
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Users by Devices Chart -->
+						</div>
+
+						<div class="col-md-6 mb-5">
+							<!-- Operating System Chart -->
+							<div class="card h-100 rounded">
+								<!-- Card Header -->
+								<header class="card-header d-flex align-items-center justify-content-between rounded pb-0" >
+									<h2 class="h4 card-header-title fs-24 font-weight-medium">Operating System</h2>
+								</header>
+								<!-- End Card Header -->
+
+								<!-- Card Body -->
+								<div class="card-body py-0">
+									<!-- Chart -->
+									<div class="d-flex justify-content-center">
+										<div class="mx-auto">
+											<canvas id="OperatingSystemChart"></canvas>
+										</div>
+									</div>
+									<!-- End Chart -->
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Operating System Chart -->
+						</div>
+
+						<div class="col-12 col-md-4 mb-5">
+						  <!-- Source / Medium -->
+						  <div class="card h-100 rounded">
+						    <!-- Card Header -->
+						    <header class="card-header d-flex align-items-center justify-content-between pb-0 rounded">
+						      <h2 class="h4 card-header-title fs-24 font-weight-medium">Source / Medium</h2>
+						    </header>
+						    <!-- End Card Header -->
+						    <!-- Card Body -->
+						    <div class="card-body p-0">
+						      <div class="table">
+						        <table class="card-table table-borderless">
+						          <thead>
+						            <tr class="small border-white">
+						              <th class="text-main pb-3 fs-20 font-weight-bold">Source</th>
+						              <th class="text-main pb-3 fs-20 font-weight-bold">Session</th>
+						              <th class="text-main pb-3 fs-20 font-weight-bold">Percent</th>
+						            </tr>
+						          </thead>
+						          <tbody>
+						            <tr>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">Social Media</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">42,932</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">Organic</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">24,975</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 113%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">Direct</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">8,921</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> -89%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">Display</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">3,213</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 67%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">Referal</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">696</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> -41%</span></td>
+						            </tr>
+						            
+						          </tbody>
+						        </table>
+						      </div>
+						    </div>
+						    <!-- End Card Body -->
+						  </div>
+						  <!-- End Source / Medium -->
+						</div>
+
+						<div class="col-12 col-md-4 mb-5">
+						  <!-- Top Provinces -->
+						  <div class="card h-100 rounded">
+						    <!-- Card Header -->
+						    <header class="card-header d-flex align-items-center justify-content-between pb-0 rounded">
+						      <h2 class="h4 card-header-title fs-24 font-weight-medium">Top Provinces</h2>
+						    </header>
+						    <!-- End Card Header -->
+						    <!-- Card Body -->
+						    <div class="card-body p-0">
+						      <div class="table">
+						        <table class="card-table table-borderless">
+						          <thead>
+						            <tr class="small border-white">
+						              <th class="text-main pb-3 fs-20 font-weight-bold" width="15%">Province</th>
+						              <th class="text-main pb-3 fs-20 font-weight-bold">Session</th>
+						              <th class="text-main pb-3 fs-20 font-weight-bold text-end" width="30%">Percent</th>
+						            </tr>
+						          </thead>
+						          <tbody>
+						            <tr>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">Bangkok</td>
+						              <td colspan="2" class="py-2 border-white fs-20 font-weight-medium text-muted">
+						              	<div class="progress rounded-4 bg-white fs-20" style="height: 35px;">
+										  	<div class="progress-bar rounded-4 fs-20 text-start ps-2" role="progressbar" style="width: 70%;background-color: #003F67;">42,975</div> <span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span>
+										</div>
+									  </td>
+						              
+						            </tr>
+						            <tr>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted ">Trad</td>
+						              <td colspan="2" class="py-2 border-white fs-20 font-weight-medium text-muted">
+						              	<div class="progress rounded-4 bg-white fs-20" style="height: 35px;">
+										  	<div class="progress-bar rounded-4 fs-20 text-start ps-2" role="progressbar" style="width: 63%;background-color: #00B4F1;">24,795</div> <span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span>
+										</div>
+									  </td>
+						            </tr>
+						            <tr>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">Rayong</td>
+						              <td colspan="2" class="py-2 border-white fs-20 font-weight-medium text-muted">
+						              	<div class="progress rounded-4 bg-white fs-20" style="height: 35px;">
+										  	<div class="progress-bar rounded-4 fs-20 text-start ps-2" role="progressbar" style="width: 55%;background-color: #E31C79;">9,453</div> <span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> 149%</span>
+										</div>
+									  </td>
+						            </tr>
+						            <tr>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">Samut Prakan</td>
+						              <td colspan="2" class="py-2 border-white fs-20 font-weight-medium text-muted">
+						              	<div class="progress rounded-4 bg-white fs-20" style="height: 35px;">
+										  	<div class="progress-bar rounded-4 fs-20 text-start ps-2" role="progressbar" style="width: 48%;background-color: #FFD700;">6,549</div> <span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> 149%</span>
+										</div>
+									  </td>
+						            </tr>
+						            <tr>
+						              <td class="py-12border-white fs-20 font-weight-medium text-muted">Prae</td>
+						              <td colspan="2" class="py-2 border-white fs-20 font-weight-medium text-muted">
+						              	<div class="progress rounded-4 bg-white fs-20" style="height: 35px;">
+										  	<div class="progress-bar rounded-4 fs-20 text-start ps-2" role="progressbar" style="width: 34%;background-color: #00A78C;">2,196</div> <span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span>
+										</div>
+									  </td>
+						            </tr>
+						            
+						          </tbody>
+						        </table>
+						      </div>
+						    </div>
+						    <!-- End Card Body -->
+						  </div>
+						  <!-- End Top Provinces -->
+						</div>
+
+						<div class="col-12 col-md-4 mb-5">
+						  <!-- Top Social Media Visits -->
+						  <div class="card h-100 rounded">
+						    <!-- Card Header -->
+						    <header class="card-header d-flex align-items-center justify-content-between pb-0 rounded">
+						      <h2 class="h4 card-header-title fs-24 font-weight-medium">Top Social Media Visits</h2>
+						    </header>
+						    <!-- End Card Header -->
+						    <!-- Card Body -->
+						    <div class="card-body p-0">
+						      <div class="table">
+						        <table class="card-table table-borderless">
+						          <thead>
+						            <tr class="small border-white">
+						              <th class="text-main pb-3 fs-20 font-weight-bold">Social Platform</th>
+						              <th class="text-main pb-3 fs-20 font-weight-bold">Session</th>
+						              <th class="text-main pb-3 fs-20 font-weight-bold">Percent</th>
+						            </tr>
+						          </thead>
+						          <tbody>
+						            <tr>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><img src="static/svg/facebook-social.svg"> <span class="ms-2">Facebook</span></td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">42,932</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><img src="static/svg/instagram-social.svg"> <span class="ms-2">Instagram</span></td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">24,975</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 113%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><img src="static/svg/twitter-social.svg"> <span class="ms-2">Twitter</span></td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">8,921</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> -89%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><img src="static/svg/twitter-social.svg"> <span class="ms-2">Twitter</span></td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">3,213</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 67%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><img src="static/svg/twitter-social.svg"> <span class="ms-2">Twitter</span></td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted">696</td>
+						              <td class="py-2 border-white fs-20 font-weight-medium text-muted"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> -41%</span></td>
+						            </tr>
+						            
+						          </tbody>
+						        </table>
+						      </div>
+						    </div>
+						    <!-- End Card Body -->
+						  </div>
+						  <!-- End Top Social Media Visits -->
+						</div>
+
+						<div class="col-md-12 mb-5">
+						  <!-- Top Landing Page -->
+						  <div class="card h-100 rounded">
+						    <!-- Card Header -->
+						    <header class="card-header d-flex align-items-center justify-content-between rounded">
+						      <h2 class="h4 card-header-title fs-24 font-weight-medium">Top Landing Page</h2>
+						    </header>
+						    <!-- End Card Header -->
+						    <!-- Card Body -->
+						    <div class="card-body p-0">
+						      <form>
+						      		<div class="form-row px-4">
+										<div class="col-9 col-xl-11">
+											<!-- Input with Link URL -->
+											<div class="form-group">
+												<div class="input-group" >
+													<input id="search" class="form-control rounded-sm" type="text" placeholder="Link URL">
+												</div>
+											</div>
+											<!-- End Input with Link URL -->
+										</div>
+										<div class="col-3 col-xl-1">
+											<button type="button" class="btn btn-primary fs-18 rounded-sm text-uppercase">Analyst</button>
+										</div>
+									</div>
+						      </form>
+						      <div class="table-responsive">
+						        <table class="card-table">
+						          <thead>
+						            <tr class="small">
+						              <th class="text-main pb-3 fs-20 font-weight-bold text-nowrap">Landing Page</th>
+						              <th class="text-main pb-3 fs-20 font-weight-bold text-end text-nowrap">Sessions</th>
+						              <th class="text-main pb-3 fs-20 font-weight-bold text-end text-nowrap">Users</th>
+						              <th class="text-main pb-3 fs-20 font-weight-bold text-end text-nowrap">New Users</th>
+						              <th class="text-main pb-3 fs-20 font-weight-bold text-end text-nowrap">Pageviews</th>
+						              <th class="text-main pb-3 fs-20 font-weight-bold text-end text-nowrap">Avg. Session Duration</th>
+						              <th class="text-main pb-3 fs-20 font-weight-bold text-end text-nowrap">Percent</th>
+						            </tr>
+						          </thead>
+						          <tbody>
+						            <tr>
+						              <td class="py-3 fs-20 font-weight-medium text-muted">Homepage</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">11,879</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">11,879</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">11,879</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">11,879</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">11,879</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-3 fs-20 font-weight-medium text-muted">Register</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">10,357</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">10,357</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">10,357</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">10,357</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">10,357</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-3 fs-20 font-weight-medium text-muted">Promotion</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">4,860</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">4,860</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">4,860</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">4,860</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">4,860</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-3 fs-20 font-weight-medium text-muted">Services</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">899</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">899</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">899</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">899</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">899</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> -26%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-3 fs-20 font-weight-medium text-muted">Contact Us</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">43</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">43</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">43</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">43</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">43</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> -35%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-3 fs-20 font-weight-medium text-muted">Branch</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 16%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-3 fs-20 font-weight-medium text-muted">News</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 32%</span></td>
+						            </tr>
+						            <tr>
+						              <td class="py-3 fs-20 font-weight-medium text-muted">About Us</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end">18</td>
+						              <td class="py-3 fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 14%</span></td>
+						            </tr>
+						          </tbody>
+						        </table>
+						      </div>
+						    </div>
+						    <!-- End Card Body -->
+						  </div>
+						  <!-- End Top Landing Page -->
+						</div>
+						<div class="col-md-12">
+						  <!-- Session Bounce -->
+						  <div class="card h-100 rounded">
+						    <!-- Card Header -->
+						    <header class="card-header d-flex align-items-center justify-content-between rounded pb-0">
+						      <h2 class="h4 card-header-title fs-24 font-weight-medium">Session Bounce</h2>
+						    </header>
+						    <!-- End Card Header -->
+						    <!-- Card Body -->
+						    <div class="card-body">
+						    	<div class="row">
+						    		<div class="col-12 col-xl-4 mb-3">
+						    			<!-- Homepage -->
+										  <div class="card h-100 rounded border box-bounce me-xl-3">
+										    <!-- Card Header -->
+										    <header class="card-header d-flex align-items-center justify-content-between pb-2 rounded">
+										      <h2 class="h4 card-header-title fs-24 font-weight-medium">1. Homepage</h2>
+										    </header>
+										    <!-- End Card Header -->
+										    <!-- Card Body -->
+										    <div class="card-body p-0">
+										      <div class="table">
+										        <table class="card-table table-borderless">
+										          <tbody>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">1,455,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Total Session</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">5,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Through Traffic</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> 35%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">5,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Drop-Off</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> -35%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">00:00</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Avg. Session Duration</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+										            </tr>
+										          </tbody>
+										        </table>
+										      </div>
+										    </div>
+										    <!-- End Card Body -->
+										  </div>
+										<!-- End Homepage -->
+						    		</div>
+						    		<div class="col-12 col-xl-4 mb-3">
+						    			<!-- Homepage -->
+										  <div class="card h-100 rounded border box-bounce me-xl-3">
+										    <!-- Card Header -->
+										    <header class="card-header d-flex align-items-center justify-content-between pb-2 rounded">
+										      <h2 class="h4 card-header-title fs-24 font-weight-medium">2. Register Page</h2>
+										    </header>
+										    <!-- End Card Header -->
+										    <!-- Card Body -->
+										    <div class="card-body p-0">
+										      <div class="table">
+										        <table class="card-table table-borderless">
+										          <tbody>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">1,455,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Total Session</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">5,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Through Traffic</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> 35%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">5,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Drop-Off</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> -35%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">00:00</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Avg. Session Duration</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+										            </tr>
+										          </tbody>
+										        </table>
+										      </div>
+										    </div>
+										    <!-- End Card Body -->
+										  </div>
+										<!-- End Homepage -->
+						    		</div>
+						    		<div class="col-12 col-xl-4 mb-3">
+						    			<!-- Homepage -->
+										  <div class="card h-100 rounded border">
+										    <!-- Card Header -->
+										    <header class="card-header d-flex align-items-center justify-content-between pb-2 rounded">
+										      <h2 class="h4 card-header-title fs-24 font-weight-medium">3. Submit Register</h2>
+										    </header>
+										    <!-- End Card Header -->
+										    <!-- Card Body -->
+										    <div class="card-body p-0">
+										      <div class="table">
+										        <table class="card-table table-borderless">
+										          <tbody>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">1,455,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Total Session</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">5,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Through Traffic</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> 35%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">5,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Drop-Off</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> -35%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">00:00</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Avg. Session Duration</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+										            </tr>
+										          </tbody>
+										        </table>
+										      </div>
+										    </div>
+										    <!-- End Card Body -->
+										  </div>
+										<!-- End Homepage -->
+						    		</div>
+						    		<div class="col-12 col-xl-4 mb-3">
+						    			<!-- Homepage -->
+										  <div class="card h-100 rounded border box-bounce me-xl-3">
+										    <!-- Card Header -->
+										    <header class="card-header d-flex align-items-center justify-content-between pb-2 rounded">
+										      <h2 class="h4 card-header-title fs-24 font-weight-medium">4. Gold 5</h2>
+										    </header>
+										    <!-- End Card Header -->
+										    <!-- Card Body -->
+										    <div class="card-body p-0">
+										      <div class="table">
+										        <table class="card-table table-borderless">
+										          <tbody>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">1,455,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Total Session</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">5,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Through Traffic</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> 35%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">5,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Drop-Off</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> -35%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">00:00</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Avg. Session Duration</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+										            </tr>
+										          </tbody>
+										        </table>
+										      </div>
+										    </div>
+										    <!-- End Card Body -->
+										  </div>
+										<!-- End Homepage -->
+						    		</div>
+						    		<div class="col-12 col-xl-4 mb-3">
+						    			<!-- Homepage -->
+										  <div class="card h-100 rounded border box-bounce me-xl-3">
+										    <!-- Card Header -->
+										    <header class="card-header d-flex align-items-center justify-content-between pb-2 rounded">
+										      <h2 class="h4 card-header-title fs-24 font-weight-medium">5. Gold 8</h2>
+										    </header>
+										    <!-- End Card Header -->
+										    <!-- Card Body -->
+										    <div class="card-body p-0">
+										      <div class="table">
+										        <table class="card-table table-borderless">
+										          <tbody>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">1,455,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Total Session</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">5,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Through Traffic</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> 35%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">5,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Drop-Off</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> -35%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">00:00</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Avg. Session Duration</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+										            </tr>
+										          </tbody>
+										        </table>
+										      </div>
+										    </div>
+										    <!-- End Card Body -->
+										  </div>
+										<!-- End Homepage -->
+						    		</div>
+						    		<div class="col-12 col-xl-4 mb-3">
+						    			<!-- Homepage -->
+										  <div class="card h-100 rounded border">
+										    <!-- Card Header -->
+										    <header class="card-header d-flex align-items-center justify-content-between pb-2 rounded">
+										      <h2 class="h4 card-header-title fs-24 font-weight-medium">6. Full Form</h2>
+										    </header>
+										    <!-- End Card Header -->
+										    <!-- Card Body -->
+										    <div class="card-body p-0">
+										      <div class="table">
+										        <table class="card-table table-borderless">
+										          <tbody>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">1,455,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Total Session</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">5,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Through Traffic</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> 35%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">5,897</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Drop-Off</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-danger ms-2"><i class="fa-solid fa-arrow-down fs-12"></i> -35%</span></td>
+										            </tr>
+										            <tr>
+										              <td class="py-2 border-white"><span class="h2 font-weight-medium mb-0 fs-24">00:00</span><h5 class="text-muted mb-0 font-weight-normal fs-18">Avg. Session Duration</h5></td>
+										              <td class="py-2 border-white fs-20 font-weight-medium text-muted text-end"><span class="text-success ms-2"><i class="fa-solid fa-arrow-up fs-12"></i> 149%</span></td>
+										            </tr>
+										          </tbody>
+										        </table>
+										      </div>
+										    </div>
+										    <!-- End Card Body -->
+										  </div>
+										<!-- End Homepage -->
+						    		</div>
+						    	</div>
+						    </div>
+						    <!-- End Card Body -->
+						  </div>
+						  <!-- End Top Session Bounce -->
+						</div>
+					</div>
+				</div>
+				<!-- End Content Body -->
+			</div>
+			<!-- End Content -->
+		</main>
+		<!-- End Main -->
+
+		<!-- Date Filter Modals -->
+		<div class="modal fade" id="dateFilterModalCenter " tabindex="-1" role="dialog" aria-labelledby="dateFilterModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header ">
+						<h5 class="modal-title fs-24 font-weight-medium" id="dateFilterModalCenterTitle">Date Filter</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-32">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="form-row">
+							<div class="col-6">
+								<!-- Input with Start Date -->
+								<div class="form-group">
+									<label for="startDate" class="fs-18 font-weight-medium">Start Date</label>
+									<div class="input-group datepicker" data-mdb-toggle-button="false">
+										<input id="startDate" class="form-control rounded-sm" data-mdb-toggle="datepicker" type="text" placeholder="Start Date" data-mdb-format="ddd, mmm yyyy">
+										<div class="input-group-append">
+										<span class="input-group-text pb-1">
+											<span class="ti-calendar"></span>
+										</span>
+										</div>
+									</div>
+								</div>
+
+								<!-- End Input with Start Date -->
+							</div>
+							<div class="col-6">
+								<!-- Input with Start Date -->
+								<div class="form-group">
+									<label for="exampleInputText3" class="fs-18 font-weight-medium">End Date</label>
+									<div class="input-group datepicker" data-mdb-toggle-button="false">
+										<input id="endDate" class="form-control rounded-sm" data-mdb-toggle="datepicker" type="text" placeholder="End Date" data-mdb-format="ddd, mmm yyyy">
+										<div class="input-group-append">
+										<span class="input-group-text pb-1">
+											<span class="ti-calendar"></span>
+										</span>
+										</div>
+									</div>
+								</div>
+								<!-- End Input with Start Date -->
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer border-0 ">
+						<button type="button" class="btn btn-primary btn-apply-filter fs-18">Apply</button>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- End Vertically Centered Modals -->
+
+
+
+
+		<!-- Global Vendor -->
+		<script src="static/libs/jquery/dist/jquery.min.js"></script>
+		<script src="static/libs/jquery-migrate/jquery-migrate.min.js"></script>
+		<script src="static/libs/popper.js/dist/umd/popper.min.js"></script>
+		<script src="static/libs/bootstrap-4.3.0/dist/js/bootstrap.min.js"></script>
+		<script src="static/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+		
+		<!-- MDB -->
+		<script src="static/libs/md-bootstrap/js/mdb.min.js"></script>
+		<script src="static/libs/md-bootstrap/js/modules/charts.min.js"></script>
+		<script src="static/libs/md-bootstrap/js/modules/datepicker.min.js"></script>
+		<script src="static/libs/md-bootstrap/plugins/js/all.min.js"></script>
+
+		<!-- Plugins -->
+		<script src="static/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="static/libs/chart.js/dist/Chart.min.js"></script>
+		<script src="static/libs/chartjs-plugin-style/dist/chartjs-plugin-style.min.js"></script>
+
+		<!-- Initialization  -->
+		<script src="static/js/sidebar-nav.js"></script>
+		<script src="static/js/main.js?v=0.0.1"></script>
+		<script src="static/js/dashboard/main.js?v=0.0.47"></script>
+
+
+	</body>
+	<!-- End Body -->
+</html>

@@ -1,0 +1,81 @@
+/* main.panel{
+ position: absolute;
+} */
+:root {
+    --deepblue: #003F67;
+    --blue: #00B4F1;
+    --red: #E31C79;
+    --yellow: #FFD700;
+    --green: #00A78C;
+    --success: #66BB6A;
+    --error: #F44336;
+    --text-main: #202020;
+    --text-secondary: #626262;
+    --background-baner: linear-gradient(79.35deg, #003F67 9.38%, #00B4F1 64.84%, #B1EBFF 121.46%);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FCFCFC;
+}
+
+.panel-bg {
+    height: 250px;
+    background: var(--background-baner);
+    width: 100%;
+}
+
+.panel-content {
+    /* position: absolute !important; */
+    /* top: -150px; */
+    margin-top: -150px;
+    margin-left: 240px;
+}
+
+.chart-bar {
+    height: 300px !important;
+    /* width: 300px !important; */
+}
+
+.chart-pie {
+    height: 300px !important;
+    width: 300px !important;
+}
+
+/* .sidenav-primary .sidenav-item .sidenav-link:hover, .sidenav-primary .sidenav-link:active, .sidenav-primary .sidenav-link:focus { */
+.accordion-shadow {
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #202020;
+}
+
+.btn-primary {
+    background-color: var(--blue);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #0096C9;
+
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--blue);
+    border-color: var(--blue);
+}
+
+.fa-circle{
+    color: #003f67;
+}

@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: "DB Ozone X";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/DB Ozone/DB Ozone X v3.2.ttf");
+}
+
+@font-face {
+    font-family: "DB Ozone X";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/DB Ozone/DB Ozone X Med v3.2.ttf");
+}
+
+@font-face {
+    font-family: "DB Ozone X";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/DB Ozone/DB Ozone X Bd v3.2.ttf");
+}
+
+/*@font-face {
+    font-family: 'DB Ozone X';
+    src: url('../fonts/DB Ozone/DBOzoneX.woff2') format('woff2'),
+        url('../fonts/DB Ozone/DBOzoneX.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DB Ozone X';
+    src: url('../fonts/DB Ozone/DBOzoneX-Medium.woff2') format('woff2'),
+        url('../fonts/DB Ozone/DBOzoneX-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DB Ozone X';
+    src: url('../fonts/DB Ozone/DBOzoneX-Bold.woff2') format('woff2'),
+        url('../fonts/DB Ozone/DBOzoneX-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}*/
+
+
+
+

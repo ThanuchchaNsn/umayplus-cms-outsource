@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<!-- Head -->
+	<head>
+		<title>Promotion Form</title>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+		<!-- Web Fonts -->
+		<!-- Components Vendor Styles -->
+		<link rel="stylesheet" href="static/libs/bootstrap/dist/css/bootstrap.min.css" />
+		<!-- MDB-->
+		<link rel="stylesheet" href="static/libs/md-bootstrap/css/mdb.min.css" />
+		<link rel="stylesheet" href="static/libs/md-bootstrap/plugins/css/all.min.css" />
+		<!-- Icon SVG -->
+		<link rel="stylesheet" href="static/icon/themify/themify-icons.css?v=0.0.1">
+		<link rel="stylesheet" href="static/icon/icomoon/style.css?v=0.0.1">
+		<!-- Scrollbar -->
+		<link rel="stylesheet" href="static/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+		<!-- Fontawesome -->
+		<link rel="stylesheet" href="static/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<link rel="stylesheet" href="static/libs/fontawesome-free-6.4.0-web/css/all.min.css">
+		<!-- Theme Styles -->
+		<link rel="stylesheet" href="static/css/theme.css?v=0.21">
+		<link rel="stylesheet" href="static/css/main.css?v=0.0.6">
+		
+	</head>
+	<!-- End Head -->
+	<!-- Body -->
+	<body>
+		<!-- Header (Topbar) -->
+		<header class="u-header">
+			<!-- Header Left Section -->
+			<div class="u-header-left ">
+				<!-- Header Logo -->
+				<a class="u-header-logo" href="index.html">
+					<img class="u-header-logo__icon" src="static/svg/logo.svg" alt="Umay+">
+				</a>
+				<!-- End Header Logo -->
+			</div>
+			<!-- End Header Left Section -->
+
+			<!-- Header Middle Section -->
+			<div class="u-header-middle">
+				<!-- Sidebar Invoker -->
+				<div class="u-header-section ps-0">
+					<a class="js-sidebar-invoker u-header-invoker u-sidebar-invoker" href="#"
+					   data-is-close-all-except-this="true"
+					   data-target="#sidebar">
+						<span class="ti-align-left u-header-invoker__icon u-sidebar-invoker__icon--open"></span>
+						<span class="ti-align-justify u-header-invoker__icon u-sidebar-invoker__icon--close"></span>
+					</a>
+				</div>
+				<!-- End Sidebar Invoker -->
+
+				<!-- Header Search -->
+				<div class="u-header-section justify-content-sm-start flex-grow-1 py-0">
+
+				</div>
+				<!-- End Header Search -->
+
+				<!-- User Profile -->
+				<div class="u-header-section u-header-section--profile">
+					<div class="u-header-dropdown dropdown">
+						<a class="link-muted d-flex align-items-center" href="#" role="button" id="userProfileInvoker" aria-haspopup="true" aria-expanded="false"
+						   data-toggle="dropdown"
+						   data-offset="0">
+							<img class="u-header-avatar img-fluid rounded-circle mr-md-3" src="static/images/avatars/user-unknown.jpg" alt="User Profile">
+							<span class="text-dark d-none d-md-inline-flex align-items-center">
+								Administator
+								<span class="ti-angle-down text-muted ml-4 fs-16"></span>
+							</span>
+						</a>
+
+						<div class="u-header-dropdown__menu dropdown-menu dropdown-menu-right" aria-labelledby="userProfileInvoker" style="width: 260px;">
+							<div class="card p-3">
+								<div class="card-body p-0">
+									<ul class="list-unstyled mb-0">
+										<li class="mb-3">
+											<a class="link-dark" href="#">View Profile</a>
+										</li>
+										<li class="mb-3">
+											<a class="link-dark" href="#">Settings</a>
+										</li>
+										<li>
+											<a class="link-dark" href="#">Sign Out</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End User Profile -->
+			</div>
+			<!-- End Header Middle Section -->
+		</header>
+		<!-- End Header (Topbar) -->
+		<!-- Main -->
+		<main class="u-main">
+			<!-- Sidebar -->
+			<aside id="sidebar" class="u-sidebar ">
+				<div class="u-sidebar-inner">
+					<!-- Sidebar Header -->
+					<header class="u-sidebar-header">
+						<!-- Sidebar Logo -->
+						<a class="u-sidebar-logo" href="index.html">
+							<img class="u-sidebar-logo__icon" src="static/svg/logo.svg" alt="Umay+">
+						</a>
+						<!-- End Sidebar Logo -->
+					</header>
+					<!-- End Sidebar Header -->
+
+					<!-- Sidebar Nav -->
+					<nav class="u-sidebar-nav">
+						<!-- Sidebar Nav Menu -->
+						<ul class="u-sidebar-nav-menu u-sidebar-nav-menu--top-level">
+							<!-- Dashboard -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link active" href="index.html">
+									<span class="icon-dashboard-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Dashboard</span>
+								</a>
+							</li>
+							<!-- End Dashboard -->
+							<!-- Heatmap -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="heatmap.html">
+									<span class="icon-heatmap-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Heatmap</span>
+								</a>
+							</li>
+							<!-- End Heatmap -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Website</small>
+							</li>
+
+							<!-- Promotions -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#"
+								   data-target="#menuItemPromotion">
+									<span class="icon-promotion-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Promotions</span>
+									<span class="ti-angle-down u-sidebar-nav-menu__item-arrow"></span>
+								</a>
+
+								<ul id="menuItemPromotion" class="u-sidebar-nav-menu u-sidebar-nav-menu--second-level" style="display: none;">
+									<!-- Lists -->
+									<li class="u-sidebar-nav-menu__item">
+										<a class="u-sidebar-nav-menu__link" href="#">
+											<span class="u-sidebar-nav-menu__item-icon"></span>
+											<span class="u-sidebar-nav-menu__item-title">Lists</span>
+										</a>
+									</li>
+									<!-- End Lists -->
+								</ul>
+							</li>
+							<!-- End Promotions -->
+
+							<!-- News & Activities -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-news-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">News & Activities</span>
+								</a>
+							</li>
+							<!-- End News & Activities -->
+
+							<!-- Blog -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="forms.html">
+									<span class="icon-blog-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Blog</span>
+								</a>
+							</li>
+							<!-- End Blog -->
+
+							<!-- Video -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="tables.html">
+									<span class="icon-video-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Video</span>
+								</a>
+							</li>
+							<!-- End Video -->
+
+							<!-- Header -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#"
+								   data-target="#menuItemAccountPages">
+									<span class="icon-header-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Header</span>
+								</a>
+							</li>
+							<!-- End Header -->
+
+							<!-- Footer -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-footer-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Footer</span>
+								</a>
+							</li>
+							<!-- End Footer -->
+
+							<!-- Banner -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-banner-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Banner</span>
+								</a>
+							</li>
+							<!-- End Banner -->
+
+							<!-- Pages -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-pages-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Pages</span>
+								</a>
+							</li>
+							<!-- End Pages -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Management</small>
+							</li>
+
+							<!-- Category -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-category-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Category</span>
+								</a>
+							</li>
+							<!-- End Category -->
+
+							<!-- Tag -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-tag-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Tag</span>
+								</a>
+							</li>
+							<!-- End Tag -->
+
+							<!-- Media -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-media-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Media</span>
+								</a>
+							</li>
+							<!-- End Media -->
+
+							<!-- Landing Popup -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-landingPopup-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Landing Popup</span>
+								</a>
+							</li>
+							<!-- End Landing Popup -->
+
+							<!-- PDPA -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-pdpa-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">PDPA</span>
+								</a>
+							</li>
+							<!-- End PDPA -->
+
+							<!-- Bitly -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-bitly-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Bitly</span>
+								</a>
+							</li>
+							<!-- End Bitly -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Settings</small>
+							</li>
+
+							<!-- Custom CSS Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom CSS Code</span>
+								</a>
+							</li>
+							<!-- End Custom CSS Code -->
+
+							<!-- Custom JS Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom JS Code</span>
+								</a>
+							</li>
+							<!-- End Custom JS Code -->
+
+							<!-- Custom GA4 Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom GA4 Code</span>
+								</a>
+							</li>
+							<!-- End Custom GA4 Code -->
+
+							<!-- Facebook Chatbox -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-facebook-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Facebook Chatbox</span>
+								</a>
+							</li>
+							<!-- End Facebook Chatbox -->
+
+							<!-- Sitemap & Robots -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-sitemap-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Sitemap & Robots</span>
+								</a>
+							</li>
+							<!-- End Sitemap & Robots -->
+
+							<!-- Maintenance Mode -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-maintenance-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Maintenance Mode</span>
+								</a>
+							</li>
+							<!-- End Maintenance Mode -->
+
+						</ul>
+						<!-- End Sidebar Nav Menu -->
+					</nav>
+					<!-- End Sidebar Nav -->
+				</div>
+			</aside>
+			<!-- End Sidebar -->
+
+			<!-- Content -->
+			<div class="u-content">
+				<!-- Body -->
+				<div class="u-body-top py-8 position-absolute w-100">
+					<div class="row mb-5">
+						<div class="col-sm-12 col-xl-3">
+							
+						</div>
+					</div>
+				</div>
+				<!-- End Body -->
+				<!-- Content Body -->
+				<div class="u-body mt-4 mt-xl-4">
+					<div class="row">
+						<div class="col-md-12 col-xl-8 mb-5">
+							<!-- Card -->
+							<div class="card rounded mb-5">
+								<!-- Card Header -->
+								<header class="card-header rounded-top border-bottom py-3">
+									<div class="row">
+										<div class="col-12 col-xl-12">
+											<h2 class="h4 card-header-title font-weight-medium fs-34">Promotion Form</h2>
+										</div>
+									</div>
+								</header>
+								<!-- End Card Header -->
+
+								<!-- Card Body -->
+								<div class="card-body">
+									<!-- Title -->
+									<div class="form-group form-outline">
+									  <input type="text" id="name" name="name" class="form-control rounded" placeholder="Enter your Title" />
+									  <label class="form-label" for="name">Title</label>
+									</div>
+									<!-- End Title -->
+									<span class="fs-18 font-weight-medium">https://sulpyamu.ideabranch.co.th/category/postdetails</span> <a href="#" class="text-primary text-decoration-underline">Edit</a>
+									<!-- Description -->
+									<div class="form-group">
+									<div class="wysiwyg border h-100 rounded" data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="false" data-mdb-wysiwyg-justify-section="false"></div>
+									</div>
+									<!-- End Description -->
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Card -->
+							<!-- Banner Promotion Image -->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingTwo">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+							        Banner Promotion Image
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo">
+							      <div class="accordion-body">
+							        	<div class="form-group">
+											<input type="file" class="form-control mb-2 w-50 rounded" id="customFile" />
+											<label class="form-label text-lh-1" for="customFile">
+											Allowed size : 734x488 px [Not over 1MB]<br>
+											Allowed type : .png / .jpg
+											</label>
+							        	</div>
+							        	<div class="text-center">
+							        		<img class="img-fluid" src="static/images/promotion/banner/202307121138.jpg">
+							        	</div>
+
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Banner Promotion Image -->
+
+							<!-- Promotion Detail Image -->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingThree">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+							        Promotion Detail Image
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree">
+							      <div class="accordion-body">
+							        	<div class="form-group">
+											<input type="file" class="form-control mb-2 w-50 rounded" id="customFile" />
+											<label class="form-label text-lh-1" for="customFile">
+											Allowed size : 734x488 px [Not over 1MB]<br>
+											Allowed type : .png / .jpg
+											</label>
+							        	</div>
+							        	<div class="text-center">
+							        		<img class="img-fluid" src="static/images/promotion/detail/202307121149.jpg">
+							        	</div>
+
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Promotion Detail Image -->
+
+							<!-- Start Date / End Date -->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingFourteen">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseFourteen" aria-expanded="true" aria-controls="panelsStayOpen-collapseFourteen">
+							        Start Date / End Date
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseFourteen" class="accordion-collapse collapse show" aria-labelledby="headingFourteen">
+							      <div class="accordion-body">
+							      	<h3 class="fs-20"> Google Preview</h3>
+							      	<div class="form-group">
+							      		<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="radio" name="dateOptions" id="dateOptions1" value="1" checked />
+										  <label class="form-check-label fs-18 text-dark" for="dateOptions1">End Date</label>
+										</div>
+
+										<div class="form-check form-check-inline">
+										  <input class="form-check-input" type="radio" name="dateOptions" id="dateOptions2" value="2" />
+										  <label class="form-check-label fs-18 text-dark" for="dateOptions2">Range Date</label>
+										</div>
+							      	</div>
+							      	<div class="row px-3">
+							      		<div class="col-12 col-xl-5 pe-3">
+									      	<div class="form-group row ">
+											    <label for="startDate" class="col-sm-4 col-form-label align-middle py-2 text-dark">Start Date:</label>
+											    <div class="col-sm-8">
+											        <div class="input-group datepicker" data-mdb-toggle-button="false">
+														<input id="startDate" name="startDate" class="form-control rounded-sm" data-mdb-toggle="datepicker" type="text" placeholder="Start Date" data-mdb-format="ddd, mmm yyyy" disabled>
+														<div class="input-group-append">
+														<span class="input-group-text pb-1">
+															<span class="ti-calendar"></span>
+														</span>
+														</div>
+													</div>
+											    </div>
+											</div>
+										</div>
+										<div class="col-12 col-xl-5">
+									      	<div class="form-group row">
+											    <label for="endDate" class="col-sm-4 col-form-label align-middle py-2 text-dark">End Date:</label>
+											    <div class="col-sm-8">
+											        <div class="input-group datepicker" data-mdb-toggle-button="false">
+														<input id="endDate" name="endDate" class="form-control rounded-sm" data-mdb-toggle="datepicker" type="text" placeholder="Start Date" data-mdb-format="ddd, mmm yyyy">
+														<div class="input-group-append">
+														<span class="input-group-text pb-1">
+															<span class="ti-calendar"></span>
+														</span>
+														</div>
+													</div>
+											    </div>
+											</div>
+										</div>
+									</div>
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Start Date / End Date -->
+
+							<!-- Footer Options & Social Media Share-->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingFour">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">
+							        Footer Options & Social Media Share
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour">
+							      <div class="accordion-body">
+							      	<div class="form-group form-outline">
+									  <input type="text" id="text" name="text" class="form-control rounded" placeholder="Enter your Text" />
+									  <label class="form-label" for="text">Text</label>
+									</div>
+							      	<div class="cloneSocialMedia">
+							      		<hr>
+							      		<!-- Link -->
+							      		<h3 class="fs-20"> Social Media 1</h3>
+										<div class="form-group form-outline">
+										  <input type="text" id="link" name="link" class="form-control rounded" placeholder="Enter your Link" />
+										  <label class="form-label" for="name">Link</label>
+										</div>
+										<!-- End Link -->
+							        	<div class="form-group mb-1">
+											<input type="file" class="form-control mb-2 w-50 rounded" id="customFile" />
+											<label class="form-label text-lh-1" for="customFile">
+											Allowed size : 80x80 px [Not over 1MB]<br>
+											Allowed type : .png
+											</label>
+							        	</div>
+							        	<div class="text-start mb-4">
+							        		<img src="static/svg/facebook-social.svg">
+							        	</div>
+							        	<div class="tn-buttons">
+								        	<a href="javascript:;" class="text-primary font-weight-medium text-decoration-underline addSocialMedia"><i class="fas fa-plus fs-12"></i> Add Social Media</a>
+								        </div>										
+							        </div>
+							        <div id="cloneSocialMediaAppendHere"></div>
+
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Footer Options & Social Media Share -->
+
+							<!-- Footer Options - Files Attachment-->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingFive">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseFive" aria-expanded="true" aria-controls="panelsStayOpen-collapseFive">
+							        Footer Options - Files Attachment
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive">
+							      <div class="accordion-body">
+							      	<div class="box1">
+							      		<h3 class="fs-18"> Upload files  <span class="text-disabled">(Can choose multiple files.)</span></h3>
+							        	<div class="form-group">
+											<input type="file" class="form-control mb-2 w-50 rounded" id="customFile" />
+											<label class="form-label text-lh-1" for="customFile">
+											Allowed size : 80x80 px [Not over 1MB]<br>
+											Allowed type : .pdf
+											</label>
+							        	</div>
+							        	<ul class="list-unstyled">
+						        			<li><a href="#" class="text-dark"><i class="far fa-file-pdf text-deepblue"></i> <span class="font-weight-medium mx-2"l>Lorem Ipsum file name 1.pdf  (3.41 MB)</span> <i class="far fa-trash-can text-danger"></i></a></li>
+						        			<li><a href="#" class="text-dark"><i class="far fa-file-pdf text-deepblue"></i> <span class="font-weight-medium mx-2"l>Lorem Ipsum file name 1.pdf  (3.41 MB)</span> <i class="far fa-trash-can text-danger"></i></a></li>
+						        		</ul>
+							        </div>
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Footer Options - Files Attachment -->
+
+							<!-- Footer Options - Action Buttons-->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingSix">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseSix" aria-expanded="true" aria-controls="panelsStayOpen-collapseSix">
+							        Footer Options - Action Buttons
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix">
+							      <div class="accordion-body">
+							      	<div class="cloneButton">
+							      		<hr>
+							      		<h3 class="fs-20"> Button</h3>
+							      		<!-- Link -->
+										<div class="form-group form-outline">
+										  <input type="text" id="link" name="link" class="form-control rounded" placeholder="Enter your Link" />
+										  <label class="form-label" for="link">Link</label>
+										</div>
+										<!-- End Link -->
+										<!-- Button Text -->
+										<div class="form-group form-outline">
+										  <input type="text" id="buttontext" name="buttontext" class="form-control rounded" placeholder="Button Text" />
+										  <label class="form-label" for="buttontext">Button Text</label>
+										</div>
+										<!-- End Button Text -->
+										<!-- Button Color -->
+										<div class="form-group w-50">
+										  <select class="form-select rounded shadow-none">
+											  <option value="1">Red</option>
+											  <option value="2">Green</option>
+											  <option value="3">Black</option>
+											</select>
+											
+										</div>
+										<!-- End Button Color -->
+							        	<div class="form-group">
+											<input type="file" class="form-control mb-2 w-50 rounded" id="customFile" />
+											<label class="form-label text-lh-1" for="customFile">
+											Allowed size : 80x80 px [Not over 1MB]<br>
+											Allowed type : .PNG
+											</label>
+							        	</div>							        	
+							        	<div class="text-start mb-4">
+							        		<img src="static/svg/facebook-social.svg">
+							        	</div>
+							        	<div class="tn-buttons">
+								        	<a href="javascript:;" class="text-primary font-weight-medium text-decoration-underline addButtons"><i class="fas fa-plus fs-12"></i> Add Buttons</a>
+								        </div>
+							        </div>
+							        <div id="cloneButtonsAppendHere"></div>
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Footer Options - Action Buttons -->
+
+							<!-- SEO Options-->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingSeven">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseSeven" aria-expanded="true" aria-controls="panelsStayOpen-collapseSeven">
+							        SEO Options
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse show" aria-labelledby="headingSeven">
+							      <div class="accordion-body">
+							      		<!-- Tabs navs -->
+										<ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
+										  <li class="nav-item" role="presentation">
+										    <a class="nav-link active fs-18 text-primary py-2" id="ex1-tab-1" data-mdb-toggle="tab" href="#ex1-tabs-1" role="tab" aria-controls="ex1-tabs-1" aria-selected="true">SEO</a>
+										  </li>
+										  <li class="nav-item" role="presentation">
+										    <a class="nav-link fs-18 text-primary py-2" id="ex1-tab-2" data-mdb-toggle="tab" href="#ex1-tabs-2" role="tab" aria-controls="ex1-tabs-2" aria-selected="false">SOCIAL Facebook</a>
+										  </li>
+										  <li class="nav-item" role="presentation">
+										    <a class="nav-link fs-18 text-primary py-2" id="ex1-tab-3" data-mdb-toggle="tab" href="#ex1-tabs-3" role="tab" aria-controls="ex1-tabs-3" aria-selected="false">SOCIAL Twitter</a>
+										  </li>
+										  <li class="nav-item" role="presentation">
+										    <a class="nav-link fs-18 text-primary py-2" id="ex1-tab-4" data-mdb-toggle="tab" href="#ex1-tabs-4" role="tab" aria-controls="ex1-tabs-4" aria-selected="false">TAGS</a>
+										  </li>
+										</ul>
+										<!-- Tabs navs -->
+										<!-- Tabs content -->
+										<div class="tab-content" id="ex1-content">
+										  <div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1">
+										  	<!-- Focus keyphrase -->
+											<div class="form-group form-outline">
+											  <input type="text" id="FocusKeyphrase" name="FocusKeyphrase" class="form-control rounded" placeholder="Focus keyphrase" />
+											  <label class="form-label" for="facebookTitle">Focus keyphrase</label>
+											</div>
+											<!-- End Focus keyphrase -->
+											<h3 class="fs-20"> Google Preview</h3>
+									      	<div class="form-group">
+									      		<div class="form-check form-check-inline">
+												  <input class="form-check-input" type="radio" name="seoOptions" id="seoOptions1" value="1" checked />
+												  <label class="form-check-label fs-18 text-dark" for="seoOptions1">Mobile result</label>
+												</div>
+
+												<div class="form-check form-check-inline">
+												  <input class="form-check-input" type="radio" name="seoOptions" id="seoOptions2" value="2" />
+												  <label class="form-check-label fs-18 text-dark" for="seoOptions2">Desktop result</label>
+												</div>
+									      	</div>
+									      	<div class="card rounded w-75 mb-5">
+									      		<div class="card-body py-2">
+									      			<div class="row">
+										      			<div class="col-12">
+										      				<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABs0lEQVR4AWL4//8/RRjO8Iucx+noO0MWUDo16FYABMGP6ZfUcRnWtm27jVPbtm3bttuH2t3eFPcY9pLz7NxiLjCyVd87pKnHyqXyxtCs8APd0rnyxiu4qSeA3QEDrAwBDrT1s1Rc/OrjLZwqVmOSu6+Lamcpp2KKMA9PH1BYXMe1mUP5qotvXTywsOEEYHXxrY+3cqk6TMkYpNr2FeoY3KIr0RPtn9wQ2unlA+GMkRw6+9TFw4YTwDUzx/JVvARj9KaedXRO8P5B1Du2S32smzqUrcKGEyA+uAgQjKX7zf0boWHGfn71jIKj2689gxp7OAGShNcBUmLMPVjZuiKcA2vuWHHDCQxMCz629kXAIU4ApY15QwggAFbfOP9DhgBJ+nWVJ1AZAfICAj1pAlY6hCADZnveQf7bQIwzVONGJonhLIlS9gr5mFg44Xd+4S3XHoGNPdJl1INIwKyEgHckEhgTe1bGiFY9GSFBYUwLh1IkiJUbY407E7syBSFxKTszEoiE/YdrgCEayDmtaJwCI9uu8TKMuZSVfSa4BpGgzvomBR/INhLGzrqDotp01ZR8pn/1L0JN9d9XNyx0AAAAAElFTkSuQmCC" alt="" class="sc-hLeiDn lpjtLH"> <span>mangools.com</span><span> › </span><span>free-seo-tools</span><span> › </span><span>serp-simulator</span>
+										      				<h3 class="text-primary fs-24"> This is an Example of the Title Tag</h3>
+										      				<p class="fs-20">Here is an example of the what a snippet looks like in Google's SERPs. The content that appears here is usually taken from the Media Description tag if relevant.</p>
+										      			</div>
+										      		</div>
+									      		</div>
+									      	</div>
+									      	<!-- SEO Title -->
+											<div class="form-group form-outline">
+											  <input type="text" id="SEOTitle" name="SEOTitle" class="form-control rounded" placeholder="SEO Title" />
+											  <label class="form-label" for="SEOTitle">SEO Title</label>
+											</div>
+											<!-- End SEO Title -->
+											<!-- SEO SLug -->
+											<div class="form-group form-outline">
+											  <input type="text" id="SEOSLug" name="SEOSLug" class="form-control rounded" placeholder="SEO SLug" />
+											  <label class="form-label" for="SEOSLug">SEO SLug</label>
+											</div>
+											<!-- End SEO SLug -->
+											<!-- Meta description -->
+											<div class="form-group form-outline">
+											  <textarea id="MetaDescription" name="MetaDescription" class="form-control" placeholder="Meta descriptiong" rows="4"></textarea>
+											  <label class="form-label" for="MetaDescription">Meta description</label>
+											</div>
+											<!-- End Meta description -->
+											<span class="fs-18 font-weight-medium text-dark">SEO Analysis: <span class="text-success">Good</span></span>
+										  </div>
+										  <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2"> 
+										  	<h4 class="fs-20">Facebook Preview</h4>
+										  	<div id="isPreview"><img  src="static/images/promotion/facebook-preview.jpg"></div>
+										  	<hr>
+										  	<div id="isImage"><img  src="static/images/promotion/facebook.jpg"></div>
+										  	<div class="mt-3">
+											  	<button type="button" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 ms-auto rounded">Change Image</button>
+											</div>
+											<div class="mb-3">
+												<a href="#" class="text-danger"><i class="far fa-trash-can fs-16"></i> <span class="ms-2">Remove Image</span></a>
+											</div>
+											<!-- Title -->
+											<div class="form-group form-outline">
+											  <input type="text" id="facebookTitle" name="facebookTitle" class="form-control rounded" placeholder="Enter your Facebook Title" />
+											  <label class="form-label" for="facebookTitle">Facebook Title</label>
+											</div>
+											<!-- End Title -->
+											<div class="form-group form-outline">
+												<textarea id="facebookDesc" name="facebookDesc" class="form-control" placeholder="Facebook Description" rows="4"></textarea>
+												<label class="form-label" for="facebookDesc">Facebook Description</label>
+											</div>
+										  </div>
+										  <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+										  	<h4 class="fs-20">Twitter Preview</h4>
+										  	<div id="isPreview"><img  src="static/images/promotion/facebook-preview.jpg"></div>
+										  	<hr>
+										  	<div id="isImage"><img  src="static/images/promotion/facebook.jpg"></div>
+										  	<div class="mt-3">
+											  	<button type="button" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 ms-auto rounded">Change Image</button>
+											</div>
+											<div class="mb-3">
+												<a href="#" class="text-danger"><i class="far fa-trash-can fs-16"></i> <span class="ms-2">Remove Image</span></a>
+											</div>
+											<!-- Title -->
+											<div class="form-group form-outline">
+											  <input type="text" id="twitterTitle" name="twitterTitle" class="form-control rounded" placeholder="Enter your Twitter Title" />
+											  <label class="form-label" for="facebookTitle">Twitter Title</label>
+											</div>
+											<!-- End Title -->
+											<div class="form-group form-outline">
+												<textarea id="twitterDesc" name="twitterDesc" class="form-control" placeholder="Twitter Description" rows="4"></textarea>
+												<label class="form-label" for="twitterDesc">Twitter Description</label>
+											</div>
+										  </div>
+										  <div class="tab-pane fade" id="ex1-tabs-4" role="tabpanel" aria-labelledby="ex1-tab-4"> 
+										  	<div class="form-group">
+												<textarea id="tags" name="tags" class="form-control" placeholder="TAGS" rows="10">
+													
+												</textarea>
+											</div>
+										  </div>
+										</div>
+										<!-- Tabs content -->
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End SEO Options -->
+
+							<!-- Header & Footer Scripts-->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingEight">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseEight" aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
+							        Header & Footer Scripts
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show" aria-labelledby="headingEight">
+							      <div class="accordion-body">
+							      		<!-- Tabs navs -->
+										<ul class="nav nav-tabs mb-3" id="ex2" role="tablist">
+										  <li class="nav-item" role="presentation">
+										    <a class="nav-link active fs-18 text-primary py-2" id="ex2-tab-1" data-mdb-toggle="tab" href="#ex2-tabs-1" role="tab" aria-controls="ex2-tabs-1" aria-selected="true">Header</a>
+										  </li>
+										  <li class="nav-item" role="presentation">
+										    <a class="nav-link fs-18 text-primary py-2" id="ex2-tab-2" data-mdb-toggle="tab" href="#ex2-tabs-2" role="tab" aria-controls="ex2-tabs-2" aria-selected="false">Footer</a>
+										  </li>
+										</ul>
+										<!-- Tabs navs -->
+										<!-- Tabs content -->
+										<div class="tab-content" id="ex2-content">
+										  <div class="tab-pane fade show active" id="ex2-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1"> 
+										  	<div class="row">
+										  		<div class="col-12 mb-4">
+												  	<h4 class="fs-20">CSS Code</h4>
+													<p class="fs-18">Lorem Ipsum is simply dummy simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+													<!-- Text -->
+													<div class="form-group">
+														<textarea id="customCSSCode" name="customCSSCode" class="form-control" placeholder="CSS Code" rows="5"></textarea>
+													</div>
+													<!-- End Text -->
+													<button type="submit" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded">Save Change</button>
+												</div>
+												<div class="col-12">
+													<h4 class="fs-20">JS Code</h4>
+													<p class="fs-18">Lorem Ipsum is simply dummy simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+													<!-- Text -->
+													<div class="form-group">
+														<textarea id="customJSCode" name="customJSCode" class="form-control" placeholder="JS Code" rows="5"></textarea>
+													</div>
+													<!-- End Text -->
+													<button type="submit" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded">Save Change</button>
+												</div>
+											</div>
+										  </div>
+										  <div class="tab-pane fade" id="ex2-tabs-2" role="tabpanel" aria-labelledby="ex2-tab-2">
+										  	<div class="row">
+										  		<div class="col-12 mb-4">
+												  	<h4 class="fs-20">CSS Code</h4>
+													<p class="fs-18">Lorem Ipsum is simply dummy simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+													<!-- Text -->
+													<div class="form-group">
+														<textarea id="customCSSCode" name="customCSSCode" class="form-control" placeholder="CSS Code" rows="5"></textarea>
+													</div>
+													<!-- End Text -->
+													<button type="submit" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded">Save Change</button>
+												</div>
+												<div class="col-12">
+													<h4 class="fs-20">JS Code</h4>
+													<p class="fs-18">Lorem Ipsum is simply dummy simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+													<!-- Text -->
+													<div class="form-group">
+														<textarea id="customJSCode" name="customJSCode" class="form-control" placeholder="JS Code" rows="5"></textarea>
+													</div>
+													<!-- End Text -->
+													<button type="submit" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded">Save Change</button>
+												</div>
+											</div>
+										  </div>
+										</div>
+										<!-- Tabs content -->
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Header & Footer Scripts -->
+
+						</div>
+
+						<div class="col-md-12 col-xl-4 mb-5">
+							<!-- Publish -->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingNine">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseNine" aria-expanded="true" aria-controls="panelsStayOpen-collapseNine">
+							        Publish
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse show" aria-labelledby="headingNine">
+							    	<div class="accordion-body">
+							        	<button type="submit" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded btn-block btn-wide">Preview</button>
+							        	<button type="submit" class="btn btn-sm btn-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded btn-block btn-wide">Update Post</button>
+							        	<ul class="py-4">
+							        		<li>Running No. <span class="font-weight-medium">2023270000001</span></li>
+							        		<li>Status: <span class="font-weight-medium">Active</span> <a href="#" class="text-primary">Edit</a></li>
+							        		<li>Visibility: <span class="font-weight-medium">Inactive</span> <a href="#" class="text-primary">Edit</a></li>
+							        		<li>Created Date: <span class="font-weight-medium">5 Feb 2023, 12:43 PM</span></li>
+							        		<li>Updated Date: <span class="font-weight-medium">7 Feb 2023, 08:43 PM</span></li>
+							        		<li>Published Date: <span class="font-weight-medium">8 Feb 2023, 02:43 PM</span> <a href="#" class="text-primary">Edit</a></li>
+							        		<li>Created By: <span class="font-weight-medium">P1234567</span></li>
+							        		<li>Updated By: <span class="font-weight-medium">P1234567</span></li>
+							        		<li>Published By: <span class="font-weight-medium">P1234567</span></li>
+							        		<li>Views: <span class="font-weight-medium">53,456</span></li>
+							        		<li>SEO: <span class="font-weight-medium text-danger">Needs Improvement</span></li>
+							        		<li>Readability: <span class="font-weight-medium text-success">Good</span></li>
+							        	</ul>
+							        	<button type="submit" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded btn-block btn-wide"><i class="far fa-clipboard fs-16"></i> <span class="ms-2">Copy This Post</span></button>
+							        	<button type="submit" class="btn btn-sm btn-outline-danger btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded btn-block btn-wide"><i class="far fa-trash-can fs-16"></i> <span class="ms-2">Move to Trash</span></button>
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Publish -->
+
+							<!-- Categories -->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingTen">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseTen" aria-expanded="true" aria-controls="panelsStayOpen-collapseTen">
+							        Categories
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse show" aria-labelledby="headingTen">
+							    	<div class="accordion-body">
+							        	<div class="form-group mb-2 px-2">
+							        		<!-- Checkbox -->
+											<div class="form-check">
+											  <input class="form-check-input" type="checkbox" name="category[]" value="1" id="flexCheckCategory1" checked/>
+											  <label class="form-check-label fs-18" for="flexCheckCategory1">Upayplus</label>
+											</div>
+											<div class="form-check">
+											  <input class="form-check-input" type="checkbox" name="category[]" value="2" id="flexCheckCategory2" checked/>
+											  <label class="form-check-label fs-18" for="flexCheckCategory2">Upaypluspremier</label>
+											</div>
+											<div class="form-check">
+											  <input class="form-check-input" type="checkbox" name="category[]" value="3" id="flexCheckCategory3" checked/>
+											  <label class="form-check-label fs-18" for="flexCheckCategory3">Other</label>
+											</div>
+											<!-- End Checkbox -->
+							        	</div>
+
+							        	<a href="#dataCategoriesModalCenter" data-toggle="modal" class="text-primary font-weight-medium text-decoration-underline"><i class="fas fa-plus fs-12"></i> Add New Categories</a>
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Categories -->
+
+							<!-- Tags -->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingEleven">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseEleven" aria-expanded="true" aria-controls="panelsStayOpen-collapseEleven">
+							        Tags
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse show" aria-labelledby="headingEleven">
+							    	<div class="accordion-body">
+							    		<div class="row">
+							    			<div class="col-9 col-xl-8 pe-0">
+									        	<div class="form-group form-outline">
+												  <input type="text" id="tagsName" name="tagsName" class="form-control rounded" placeholder="Tags" />
+												  <label class="form-label" for="name">Tags</label>
+												</div>
+											</div>
+											<div class="col-3 col-xl-4">
+												<a href="javascript:;" class="btn btn-sm btn-outline-primary btn-with-icon py-2 px-2 text-uppercase  rounded btn-block ">Add Tags</a>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-12">
+												<div class="chip rounded-4 fs-18 mx-0"><i class="close fas fa-remove fs-12 pt-2"></i> Demo Tag 1</div>
+												<div class="chip rounded-4 fs-18 mx-0"><i class="close fas fa-remove fs-12 pt-2"></i> Demo Tag 2</div>
+												<div class="chip rounded-4 fs-18 mx-0"><i class="close fas fa-remove fs-12 pt-2"></i> Tag 3</div>
+												<div class="chip rounded-4 fs-18 mx-0"><i class="close fas fa-remove fs-12 pt-2"></i> Demo Tag 4 </div>
+												<div class="chip rounded-4 fs-18 mx-0"><i class="close fas fa-remove fs-12 pt-2"></i> Tag 5 </div>
+											</div>
+										</div>
+
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Tags -->
+
+							<!-- Template -->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingTwelve">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseTwelve" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwelve">
+							        Template
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseTwelve" class="accordion-collapse collapse show" aria-labelledby="headingTwelve">
+							    	<div class="accordion-body">
+							    		<h3 class="fs-20 mb-3" id="isTemplateSelect"> Template 1</h3>
+							        	<a href="#dataTemplateModalCenter" data-toggle="modal" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 ms-auto rounded">Choose Template</a>
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Template -->
+
+							<!-- Footer Options -->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingThirteen">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseThirtee" aria-expanded="true" aria-controls="panelsStayOpen-collapseThirtee">
+							        Footer Options
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseThirtee" class="accordion-collapse collapse show" aria-labelledby="headingThirtee">
+							    	<div class="accordion-body">
+							        	<div class="form-group mb-2 px-2">
+							        		<!-- Checkbox -->
+											<div class="form-check">
+											  <input class="form-check-input" type="checkbox" name="option[]" value="1" id="flexCheckOption1" />
+											  <label class="form-check-label fs-18" for="flexCheckOption1">Show Social Media Share</label>
+											</div>
+											<div class="form-check">
+											  <input class="form-check-input" type="checkbox" name="option[]" value="2" id="flexCheckOption2" checked/>
+											  <label class="form-check-label fs-18" for="flexCheckOption2">Show Files Attachment</label>
+											</div>
+											<div class="form-check">
+											  <input class="form-check-input " type="checkbox" name="option[]" value="3" id="flexCheckOption3" />
+											  <label class="form-check-label fs-18" for="flexCheckOption3">Show Action Buttons</label>
+											</div>
+											<!-- End Checkbox -->
+							        	</div>
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Footer Options -->
+
+						</div>
+
+						<div class="col-md-12 col-xl-8 d-flex">
+							<button type="submit" class="btn btn-sm btn-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded">Update Post</button>
+
+							<button type="button" class="btn btn-sm btn-outline-danger btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 ms-auto rounded">Cancel</button>
+						</div>
+
+					</div>
+				</div>
+				<!-- End Content Body -->
+			</div>
+			<!-- End Content -->
+		</main>
+		<!-- End Main -->
+
+		<!-- Categories Modals -->
+		<div class="modal fade" id="dataCategoriesModalCenter" tabindex="-1" role="dialog" aria-labelledby="dateCategoriesModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+				<div class="modal-content ">
+					<div class="modal-header ">
+						<h5 class="modal-title fs-24 font-weight-medium" id="dateCategoriesModalCenterTitle">Add New Category</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-32">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body pb-0">
+						<div class="form-row">
+							<div class="col-12">
+								<!-- Tag Name -->
+								<div class="form-group form-outline">
+								  <input type="text" id="name" name="name" class="form-control rounded" placeholder="Tag Name" />
+								  <label class="form-label" for="name">Tag Name</label>
+								</div>
+								<!-- End Tag Name -->
+							</div>
+							<div class="col-12">
+								<!-- Parent Tag -->
+								<div class="form-group">
+								  <select class="select ">
+									  <option value="1">Parent Tag 1</option>
+									  <option value="2">Parent Tag 2</option>
+									  <option value="3">Parent Tag 3</option>
+									</select>
+									<label class="form-label select-label">Parent Tag</label>
+								</div>
+								<!-- End Parent Tag -->
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer border-0 pt-0">
+						<button type="button" class="btn btn-primary btn-apply-filter fs-18">Add</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Categories Modals -->
+
+		<!-- Template Modals -->
+		<div class="modal fade" id="dataTemplateModalCenter" tabindex="-1" role="dialog" aria-labelledby="dateTemplateModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				<div class="modal-content ">
+					<div class="modal-header ">
+						<h5 class="modal-title fs-24 font-weight-medium" id="dateTemplateModalCenterTitle">Template</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-32">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<h3 class="fs-20 mb-3 font-weight-medium">Choose Template</h3>
+						<div class="row d-flex justify-content-center px-3">
+							<div class="col-4 col-xl-2x">
+								<div class="form-check">
+								  <input class="form-check-input" type="radio" name="isTemplate" id="isTemplate1" value="1" checked/>
+								  <label class="form-check-label fs-18" for="isTemplate1"> Template 1 </label>
+								</div>
+								<img class="img-fluid isTemplate checked" id="imgTemplate1" src="static/images/template/TemplateA.png">
+							</div>
+							<div class="col-4 col-xl-2x">
+								<div class="form-check">
+								  <input class="form-check-input" type="radio" name="isTemplate" id="isTemplate2" value="2"/>
+								  <label class="form-check-label fs-18" for="isTemplate2"> Template 2 </label>
+								</div>
+								<img class="img-fluid isTemplate" id="imgTemplate2" src="static/images/template/TemplateB.png">
+							</div>
+							<div class="col-4 col-xl-2x">
+								<div class="form-check">
+								  <input class="form-check-input" type="radio" name="isTemplate" id="isTemplate3" value="3"/>
+								  <label class="form-check-label fs-18" for="isTemplate3"> Template 3 </label>
+								</div>
+								<img class="img-fluid isTemplate" id="imgTemplate3" src="static/images/template/TemplateC.png">
+							</div>
+							<div class="col-4 col-xl-2x">
+								<div class="form-check">
+								  <input class="form-check-input" type="radio" name="isTemplate" id="isTemplate4" value="4"/>
+								  <label class="form-check-label fs-18" for="isTemplate4"> Template 4 </label>
+								</div>
+								<img class="img-fluid isTemplate" id="imgTemplate4" src="static/images/template/TemplateD.png">
+							</div>
+							<div class="col-4 col-xl-2x">
+								<div class="form-check">
+								  <input class="form-check-input" type="radio" name="isTemplate" id="isTemplate5" value="5"/>
+								  <label class="form-check-label fs-18" for="isTemplate5"> Template 5 </label>
+								</div>
+								<img class="img-fluid isTemplate" id="imgTemplate5" src="static/images/template/TemplateE.png">
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer border-0">
+						<button type="button" class="btn btn-primary btn-choose-template fs-18" data-dismiss="modal">Choose</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Template Modals -->
+
+		
+
+
+		<!-- Global Vendor -->
+		<script src="static/libs/jquery/dist/jquery.min.js"></script>
+		<script src="static/libs/jquery-migrate/jquery-migrate.min.js"></script>
+		<script src="static/libs/popper.js/dist/umd/popper.min.js"></script>
+		<script src="static/libs/bootstrap-4.3.0/dist/js/bootstrap.min.js"></script>
+		<script src="static/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+		
+		<!-- MDB -->
+		<script src="static/libs/md-bootstrap/js/mdb.min.js"></script>
+		<script src="static/libs/md-bootstrap/plugins/js/all.min.js"></script>
+
+		<!-- Plugins -->
+		<script src="static/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="static/libs/chart.js/dist/Chart.min.js"></script>
+		<script src="static/libs/chartjs-plugin-style/dist/chartjs-plugin-style.min.js"></script>
+
+		<!-- Initialization  -->
+		<script src="static/js/sidebar-nav.js"></script>
+		<script src="static/js/main.js?v=0.0.3"></script>
+		<script src="static/js/promotion/form.js?v=0.0.34"></script>
+
+
+
+
+	</body>
+	<!-- End Body -->
+</html>
