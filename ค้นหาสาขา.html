@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<!-- Head -->
+	<head>
+		<title>ค้นหาสาขา</title>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+		<!-- Web Fonts -->
+		<!-- Components Vendor Styles -->
+		<link rel="stylesheet" href="static/libs/bootstrap/dist/css/bootstrap.min.css" />
+		<!-- MDB-->
+		<link rel="stylesheet" href="static/libs/md-bootstrap/css/mdb.min.css" />
+		<link rel="stylesheet" href="static/libs/md-bootstrap/plugins/css/all.min.css" />
+		<!-- Icon SVG -->
+		<link rel="stylesheet" href="static/icon/themify/themify-icons.css?v=0.0.1">
+		<link rel="stylesheet" href="static/icon/icomoon/style.css?v=0.0.1">
+		<!-- Scrollbar -->
+		<link rel="stylesheet" href="static/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+		<!-- Fontawesome -->
+		<link rel="stylesheet" href="static/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<link rel="stylesheet" href="static/libs/fontawesome-free-6.4.0-web/css/all.min.css">
+		<!-- Theme Styles -->
+		<link rel="stylesheet" href="static/css/theme.css?v=0.30">
+		<link rel="stylesheet" href="static/css/main.css?v=0.0.6">
+		
+	</head>
+	<!-- End Head -->
+	<!-- Body -->
+	<body>
+		<!-- Header (Topbar) -->
+		<header class="u-header">
+			<!-- Header Left Section -->
+			<div class="u-header-left ">
+				<!-- Header Logo -->
+				<a class="u-header-logo" href="index.html">
+					<img class="u-header-logo__icon" src="static/svg/logo.svg" alt="Umay+">
+				</a>
+				<!-- End Header Logo -->
+			</div>
+			<!-- End Header Left Section -->
+
+			<!-- Header Middle Section -->
+			<div class="u-header-middle">
+				<!-- Sidebar Invoker -->
+				<div class="u-header-section ps-0">
+					<a class="js-sidebar-invoker u-header-invoker u-sidebar-invoker" href="#"
+					   data-is-close-all-except-this="true"
+					   data-target="#sidebar">
+						<span class="ti-align-left u-header-invoker__icon u-sidebar-invoker__icon--open"></span>
+						<span class="ti-align-justify u-header-invoker__icon u-sidebar-invoker__icon--close"></span>
+					</a>
+				</div>
+				<!-- End Sidebar Invoker -->
+
+				<!-- Header Search -->
+				<div class="u-header-section justify-content-sm-start flex-grow-1 py-0">
+
+				</div>
+				<!-- End Header Search -->
+
+				<!-- User Profile -->
+				<div class="u-header-section u-header-section--profile">
+					<div class="u-header-dropdown dropdown">
+						<a class="link-muted d-flex align-items-center" href="#" role="button" id="userProfileInvoker" aria-haspopup="true" aria-expanded="false"
+						   data-toggle="dropdown"
+						   data-offset="0">
+							<img class="u-header-avatar img-fluid rounded-circle mr-md-3" src="static/images/avatars/user-unknown.jpg" alt="User Profile">
+							<span class="text-dark d-none d-md-inline-flex align-items-center">
+								Administator
+								<span class="ti-angle-down text-muted ml-4 fs-16"></span>
+							</span>
+						</a>
+
+						<div class="u-header-dropdown__menu dropdown-menu dropdown-menu-right" aria-labelledby="userProfileInvoker" style="width: 260px;">
+							<div class="card p-3">
+								<div class="card-body p-0">
+									<ul class="list-unstyled mb-0">
+										<li class="mb-3">
+											<a class="link-dark" href="#">View Profile</a>
+										</li>
+										<li class="mb-3">
+											<a class="link-dark" href="#">Settings</a>
+										</li>
+										<li>
+											<a class="link-dark" href="#">Sign Out</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End User Profile -->
+			</div>
+			<!-- End Header Middle Section -->
+		</header>
+		<!-- End Header (Topbar) -->
+		<!-- Main -->
+		<main class="u-main">
+			<!-- Sidebar -->
+			<aside id="sidebar" class="u-sidebar ">
+				<div class="u-sidebar-inner">
+					<!-- Sidebar Header -->
+					<header class="u-sidebar-header">
+						<!-- Sidebar Logo -->
+						<a class="u-sidebar-logo" href="index.html">
+							<img class="u-sidebar-logo__icon" src="static/svg/logo.svg" alt="Umay+">
+						</a>
+						<!-- End Sidebar Logo -->
+					</header>
+					<!-- End Sidebar Header -->
+
+					<!-- Sidebar Nav -->
+					<nav class="u-sidebar-nav">
+						<!-- Sidebar Nav Menu -->
+						<ul class="u-sidebar-nav-menu u-sidebar-nav-menu--top-level">
+							<!-- Dashboard -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link active" href="index.html">
+									<span class="icon-dashboard-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Dashboard</span>
+								</a>
+							</li>
+							<!-- End Dashboard -->
+							<!-- Heatmap -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="heatmap.html">
+									<span class="icon-heatmap-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Heatmap</span>
+								</a>
+							</li>
+							<!-- End Heatmap -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Website</small>
+							</li>
+
+							<!-- Promotions -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#"
+								   data-target="#menuItemPromotion">
+									<span class="icon-promotion-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Promotions</span>
+									<span class="ti-angle-down u-sidebar-nav-menu__item-arrow"></span>
+								</a>
+
+								<ul id="menuItemPromotion" class="u-sidebar-nav-menu u-sidebar-nav-menu--second-level" style="display: none;">
+									<!-- Lists -->
+									<li class="u-sidebar-nav-menu__item">
+										<a class="u-sidebar-nav-menu__link" href="#">
+											<span class="u-sidebar-nav-menu__item-icon"></span>
+											<span class="u-sidebar-nav-menu__item-title">Lists</span>
+										</a>
+									</li>
+									<!-- End Lists -->
+								</ul>
+							</li>
+							<!-- End Promotions -->
+
+							<!-- News & Activities -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-news-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">News & Activities</span>
+								</a>
+							</li>
+							<!-- End News & Activities -->
+
+							<!-- Blog -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="forms.html">
+									<span class="icon-blog-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Blog</span>
+								</a>
+							</li>
+							<!-- End Blog -->
+
+							<!-- Video -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="tables.html">
+									<span class="icon-video-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Video</span>
+								</a>
+							</li>
+							<!-- End Video -->
+
+							<!-- Header -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#"
+								   data-target="#menuItemAccountPages">
+									<span class="icon-header-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Header</span>
+								</a>
+							</li>
+							<!-- End Header -->
+
+							<!-- Footer -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-footer-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Footer</span>
+								</a>
+							</li>
+							<!-- End Footer -->
+
+							<!-- Banner -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-banner-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Banner</span>
+								</a>
+							</li>
+							<!-- End Banner -->
+
+							<!-- Pages -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-pages-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Pages</span>
+								</a>
+							</li>
+							<!-- End Pages -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Management</small>
+							</li>
+
+							<!-- Category -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-category-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Category</span>
+								</a>
+							</li>
+							<!-- End Category -->
+
+							<!-- Tag -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-tag-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Tag</span>
+								</a>
+							</li>
+							<!-- End Tag -->
+
+							<!-- Media -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-media-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Media</span>
+								</a>
+							</li>
+							<!-- End Media -->
+
+							<!-- Landing Popup -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-landingPopup-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Landing Popup</span>
+								</a>
+							</li>
+							<!-- End Landing Popup -->
+
+							<!-- PDPA -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-pdpa-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">PDPA</span>
+								</a>
+							</li>
+							<!-- End PDPA -->
+
+							<!-- Bitly -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-bitly-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Bitly</span>
+								</a>
+							</li>
+							<!-- End Bitly -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Settings</small>
+							</li>
+
+							<!-- Custom CSS Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom CSS Code</span>
+								</a>
+							</li>
+							<!-- End Custom CSS Code -->
+
+							<!-- Custom JS Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom JS Code</span>
+								</a>
+							</li>
+							<!-- End Custom JS Code -->
+
+							<!-- Custom GA4 Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom GA4 Code</span>
+								</a>
+							</li>
+							<!-- End Custom GA4 Code -->
+
+							<!-- Facebook Chatbox -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-facebook-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Facebook Chatbox</span>
+								</a>
+							</li>
+							<!-- End Facebook Chatbox -->
+
+							<!-- Sitemap & Robots -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-sitemap-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Sitemap & Robots</span>
+								</a>
+							</li>
+							<!-- End Sitemap & Robots -->
+
+							<!-- Maintenance Mode -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-maintenance-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Maintenance Mode</span>
+								</a>
+							</li>
+							<!-- End Maintenance Mode -->
+
+						</ul>
+						<!-- End Sidebar Nav Menu -->
+					</nav>
+					<!-- End Sidebar Nav -->
+				</div>
+			</aside>
+			<!-- End Sidebar -->
+
+			<!-- Content -->
+			<div class="u-content">
+				<!-- Body -->
+				<div class="u-body-top py-8 position-absolute w-100">
+					<div class="row mb-5">
+						<div class="col-sm-12 col-xl-3">
+							
+						</div>
+					</div>
+				</div>
+				<!-- End Body -->
+				<!-- Content Body -->
+				<div class="u-body mt-4 mt-xl-4">
+					<div class="row">
+						<div class="col-md-12 col-xl-8 mb-5">
+							<!-- Card -->
+							<div class="card rounded mb-5">
+								<!-- Card Header -->
+								<header class="card-header rounded-top border-bottom py-3">
+									<div class="row">
+										<div class="col-12 col-xl-12">
+											<h2 class="h4 card-header-title font-weight-medium fs-34">ค้นหาสาขา</h2>
+										</div>
+									</div>
+								</header>
+								<!-- End Card Header -->
+
+								<!-- Card Body -->
+								<div class="card-body">
+									<!-- Title -->
+									<div class="form-group form-outline">
+									  <input type="text" id="name" name="name" class="form-control rounded" value="ค้นหาสาขา" placeholder="Enter your Title" />
+									  <label class="form-label" for="name">Title</label>
+									</div>
+									<!-- End Title -->
+									<!-- Link -->
+									<span class="fs-18 font-weight-medium">https://www.umayplus.com/<span id="pathURLReplace">contact/branchlocations</span></span> <a href="#editPathURLModal" data-mdb-toggle="modal" class="text-primary text-decoration-underline">Edit</a>
+									<!-- End Link -->
+					
+									
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Card -->
+
+							<!-- Section 1-->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingSection1">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseSection1" aria-expanded="true" aria-controls="panelsStayOpen-collapseSection1">
+							        Section 1
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseSection1" class="accordion-collapse collapse show" aria-labelledby="headingSection1">
+							      <div class="accordion-body">
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Title</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section1_title">ค้นหาสาขา</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Subtitle</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section1_subtitle">ค้นหาที่ตั้งสาขา/บูธ</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Position</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-10"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section1_position">ค้นหาจุดบริการใกล้คุณ</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Button</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-10"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section1_button">ค้นหา</div>
+							      		</div>
+							      	</div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Section 1 -->
+
+							<!-- Section 2-->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingSection2">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseSection2" aria-expanded="true" aria-controls="panelsStayOpen-collapseSection2">
+							        Section 2
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseSection2" class="accordion-collapse collapse show" aria-labelledby="headingSection2">
+							      <div class="accordion-body">
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Title</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_title">ค้นหาสาขา</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 1 - Title</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch1_title">บูธบิ๊กซี เอ็กซ์ตร้า เพชรเกษม 2</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 1 - Address</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch1_address">บิ๊กซี เอ็กซ์ตร้า สาขาเพชรเกษม 2 ชั้น 1 ประตูทางเข้าห้าง แขวงหนองค้างพลู เขตหนองแขม จังหวัดกรุงเทพฯ 10160</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 1 - Telephone</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch1_telephone">09-0651-0563</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 1 - Fax</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch1_fax">-</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 1 - Time</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch1_time">วันจันทร์ - วันอาทิตย์ และวันหยุดนักขัตฤกษ์<br>เวลา 10.00 - 20.00 น.</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 1 - Card</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch1_card">บัตรกดเงินสดยูเมะพลัสและยูเมะพลัส พรีเมียร์</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 2 - Title</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch2_title">บูธบิ๊กซี เอ็กซ์ตร้า เพชรเกษม 2</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 2 - Address</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch2_address">บิ๊กซี เอ็กซ์ตร้า สาขาเพชรเกษม 2 ชั้น 1 ประตูทางเข้าห้าง แขวงหนองค้างพลู เขตหนองแขม จังหวัดกรุงเทพฯ 10160</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 2 - Telephone</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch2_telephone">09-0651-0563</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 2 - Fax</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch2_fax">-</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 2 - Time</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch2_time">วันจันทร์ - วันอาทิตย์ และวันหยุดนักขัตฤกษ์<br>เวลา 10.00 - 20.00 น.</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 2 - Card</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch2_card">บัตรกดเงินสดยูเมะพลัสและยูเมะพลัส พรีเมียร์</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 3 - Title</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch3_title">บูธบิ๊กซี รัชดา</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 3 - Address</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch3_address">บิ๊กซี เอ็กซ์ตร้า รัชดา ชั้น 1 ตรงข้ามเอ็มเค สุกี้ แขวงดินแดง เขตดินแดง จังหวัดกรุงเทพฯ 10400</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 3 - Telephone</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch3_telephone">09-1770-6503</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 3 - Fax</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch3_fax">-</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 3 - Time</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch3_time">วันจันทร์ - วันอาทิตย์ และวันหยุดนักขัตฤกษ์<br>เวลา 10.00 - 20.00 น.</div>
+							      		</div>
+							      		<div class="form-group">
+							      			<label class="form-label fs-18 font-weight-medium text-dark">Branch 3 - Card</label>
+							      			<div class="wysiwyg border rounded wysiwyg-h-5"   data-mdb-wysiwyg="wysiwyg" data-mdb-wysiwyg-formatting-section="true" data-mdb-wysiwyg-styles-section="false" data-mdb-wysiwyg-lists-section="false" data-mdb-wysiwyg-links-section="false" data-mdb-wysiwyg-textarea-name="section2_branch3_card">บัตรกดเงินสดยูเมะพลัสและยูเมะพลัส พรีเมียร์</div>
+							      		</div>
+							      	</div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Section 2 -->
+
+
+							<!-- SEO Options-->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingSeven">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseSeven" aria-expanded="true" aria-controls="panelsStayOpen-collapseSeven">
+							        SEO Options
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse show" aria-labelledby="headingSeven">
+							      <div class="accordion-body">
+							      		<!-- Tabs navs -->
+										<ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
+										  <li class="nav-item" role="presentation">
+										    <a class="nav-link active fs-18 text-primary py-2" id="ex1-tab-1" data-mdb-toggle="tab" href="#ex1-tabs-1" role="tab" aria-controls="ex1-tabs-1" aria-selected="true">SEO</a>
+										  </li>
+										  <li class="nav-item" role="presentation">
+										    <a class="nav-link fs-18 text-primary py-2" id="ex1-tab-2" data-mdb-toggle="tab" href="#ex1-tabs-2" role="tab" aria-controls="ex1-tabs-2" aria-selected="false">SOCIAL Facebook</a>
+										  </li>
+										  <li class="nav-item" role="presentation">
+										    <a class="nav-link fs-18 text-primary py-2" id="ex1-tab-3" data-mdb-toggle="tab" href="#ex1-tabs-3" role="tab" aria-controls="ex1-tabs-3" aria-selected="false">SOCIAL Twitter</a>
+										  </li>
+										  <li class="nav-item" role="presentation">
+										    <a class="nav-link fs-18 text-primary py-2" id="ex1-tab-4" data-mdb-toggle="tab" href="#ex1-tabs-4" role="tab" aria-controls="ex1-tabs-4" aria-selected="false">TAGS</a>
+										  </li>
+										</ul>
+										<!-- Tabs navs -->
+										<!-- Tabs content -->
+										<div class="tab-content" id="ex1-content">
+										  <div class="tab-pane fade show active" id="ex1-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1">
+										  	<!-- Focus keyphrase -->
+											<div class="form-group form-outline">
+											  <input type="text" id="FocusKeyphrase" name="FocusKeyphrase" class="form-control rounded" placeholder="Focus keyphrase" />
+											  <label class="form-label" for="facebookTitle">Focus keyphrase</label>
+											</div>
+											<!-- End Focus keyphrase -->
+											<h3 class="fs-20"> Google Preview</h3>
+									      	<div class="form-group">
+									      		<div class="form-check form-check-inline">
+												  <input class="form-check-input" type="radio" name="seoOptions" id="seoOptions1" value="Mobile" checked />
+												  <label class="form-check-label fs-18 text-dark" for="seoOptions1">Mobile result</label>
+												</div>
+
+												<div class="form-check form-check-inline">
+												  <input class="form-check-input" type="radio" name="seoOptions" id="seoOptions2" value="Desktop" checked />
+												  <label class="form-check-label fs-18 text-dark" for="seoOptions2">Desktop result</label>
+												</div>
+									      	</div>
+									      	<div class="card rounded w-75 mb-5">
+									      		<div class="card-body py-2">
+									      			<div class="row">
+										      			<div class="col-12">
+										      				<div class="isBoxSEOOptions d-none" id="isBoxSEOOptionsMobile">
+										      					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABs0lEQVR4AWL4//8/RRjO8Iucx+noO0MWUDo16FYABMGP6ZfUcRnWtm27jVPbtm3bttuH2t3eFPcY9pLz7NxiLjCyVd87pKnHyqXyxtCs8APd0rnyxiu4qSeA3QEDrAwBDrT1s1Rc/OrjLZwqVmOSu6+Lamcpp2KKMA9PH1BYXMe1mUP5qotvXTywsOEEYHXxrY+3cqk6TMkYpNr2FeoY3KIr0RPtn9wQ2unlA+GMkRw6+9TFw4YTwDUzx/JVvARj9KaedXRO8P5B1Du2S32smzqUrcKGEyA+uAgQjKX7zf0boWHGfn71jIKj2689gxp7OAGShNcBUmLMPVjZuiKcA2vuWHHDCQxMCz629kXAIU4ApY15QwggAFbfOP9DhgBJ+nWVJ1AZAfICAj1pAlY6hCADZnveQf7bQIwzVONGJonhLIlS9gr5mFg44Xd+4S3XHoGNPdJl1INIwKyEgHckEhgTe1bGiFY9GSFBYUwLh1IkiJUbY407E7syBSFxKTszEoiE/YdrgCEayDmtaJwCI9uu8TKMuZSVfSa4BpGgzvomBR/INhLGzrqDotp01ZR8pn/1L0JN9d9XNyx0AAAAAElFTkSuQmCC" alt="" class="sc-hLeiDn lpjtLH"> <span>mangools.com</span><span> › </span><span>free-seo-tools</span><span> › </span><span>serp-simulator</span>
+											      				<h3 class="text-primary fs-24 isPreviewTitleSEO"> This is an Example of the Title Tag</h3>
+											      				<div class="row">
+											      					<div class="col-8 ps-3 pe-0">
+											      						<p class="fs-20 isPreviewDescSEO float-left lh-1">Here is an example of the what a snippet looks like in Google's SERPs. The content that appears here is usually taken from the Media Description tag if relevant. </p>
+											      					</div>
+											      					<div class="col-4 ps-0">
+											      						<img class="img-fluid" src="static/images/promotion/banner/202307121138.jpg?v=1">
+											      					</div>
+											      				</div>
+											      				
+											      				
+										      				</div>
+										      				<div class="isBoxSEOOptions d-block" id="isBoxSEOOptionsDesktop">
+										      					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABs0lEQVR4AWL4//8/RRjO8Iucx+noO0MWUDo16FYABMGP6ZfUcRnWtm27jVPbtm3bttuH2t3eFPcY9pLz7NxiLjCyVd87pKnHyqXyxtCs8APd0rnyxiu4qSeA3QEDrAwBDrT1s1Rc/OrjLZwqVmOSu6+Lamcpp2KKMA9PH1BYXMe1mUP5qotvXTywsOEEYHXxrY+3cqk6TMkYpNr2FeoY3KIr0RPtn9wQ2unlA+GMkRw6+9TFw4YTwDUzx/JVvARj9KaedXRO8P5B1Du2S32smzqUrcKGEyA+uAgQjKX7zf0boWHGfn71jIKj2689gxp7OAGShNcBUmLMPVjZuiKcA2vuWHHDCQxMCz629kXAIU4ApY15QwggAFbfOP9DhgBJ+nWVJ1AZAfICAj1pAlY6hCADZnveQf7bQIwzVONGJonhLIlS9gr5mFg44Xd+4S3XHoGNPdJl1INIwKyEgHckEhgTe1bGiFY9GSFBYUwLh1IkiJUbY407E7syBSFxKTszEoiE/YdrgCEayDmtaJwCI9uu8TKMuZSVfSa4BpGgzvomBR/INhLGzrqDotp01ZR8pn/1L0JN9d9XNyx0AAAAAElFTkSuQmCC" alt="" class="sc-hLeiDn lpjtLH"> <span>mangools.com</span><span> › </span><span>free-seo-tools</span><span> › </span><span>serp-simulator</span>
+											      				<h3 class="text-primary fs-24 isPreviewTitleSEO" > This is an Example of the Title Tag</h3>
+											      				<p class="fs-20 isPreviewDescSEO">Here is an example of the what a snippet looks like in Google's SERPs. The content that appears here is usually taken from the Media Description tag if relevant. </p>
+										      				</div>
+										      				
+										      			</div>
+										      		</div>
+									      		</div>
+									      	</div>
+
+									      	<!-- SEO Title -->
+											<div class="form-group form-outline">
+											  <input type="text" id="SEOTitle" name="SEOTitle" class="form-control rounded" placeholder="SEO Title" />
+											  <label class="form-label" for="SEOTitle">SEO Title</label>
+											</div>
+											<!-- End SEO Title -->
+											<!-- SEO SLug -->
+											<div class="form-group form-outline">
+											  <input type="text" id="SEOSLug" name="SEOSLug" class="form-control rounded" placeholder="SEO SLug" />
+											  <label class="form-label" for="SEOSLug">SEO SLug</label>
+											</div>
+											<!-- End SEO SLug -->
+											<!-- Meta description -->
+											<div class="form-group form-outline">
+											  <textarea id="MetaDescription" name="MetaDescription" class="form-control" placeholder="Meta descriptiong" rows="4"></textarea>
+											  <label class="form-label" for="MetaDescription">Meta description</label>
+											</div>
+											<!-- End Meta description -->
+											<span class="fs-18 font-weight-medium text-dark">SEO Analysis: <span id="isPreviewAnalysisSEO"><span class="text-success">Good</span></span></span>
+										  </div>
+										  <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2"> 
+										  	<h4 class="fs-20">Facebook Preview</h4>
+										  	<div class="row boxPreviewFacebook">
+										  		<div class="col-7">
+											  		<div class="card rounded-0">
+													  <img id="isPreviewImageFacebook" src="static/images/promotion/facebook.jpg">
+													  <div class="card-body rounded-0 py-2 px-2 bg-card-social">
+													    <h5 class="card-title text-dark fs-20 fs-18 font-weight-medium mb-0" id="isPreviewTitleFacebook">Title</h5>
+													    <p class="card-text text-dark lh-1" id="isPreviewDescFacebook">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+													  </div>
+													</div>
+											  		
+											  	</div>
+										  	</div>
+										  	<hr>
+										  	<div class="text-start"><img class="img-fluid" id="isImageFacebook" src="static/images/promotion/facebook.jpg"></div>
+										  	<div class="mt-3">
+											  	<button type="button" id="btnImgFacebookUpload" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 ms-auto rounded">Change Image</button>
+												<span id="imgFacebookFilePath"></span>
+												<input type="file" id="imgFacebookUpload" accept="image/*" style="display: none" />
+											</div>
+											<div class="mb-3">
+												<a href="javascript:;" class="text-danger removeImageFacebook" data-image-id="isImageFacebook"><i class="far fa-trash-can fs-16"></i> <span class="ms-2">Remove Image</span></a>
+											</div>
+											<!-- SEO Input Hidden -->
+									      	<input type="hidden" name="facebookImageURL" value="">
+									      	<input type="hidden" name="facebookImageWidth" value="">
+									      	<input type="hidden" name="facebookImageHeight" value="">
+									      	<input type="hidden" name="facebookImageType" value="">
+									      	<!-- End SEO Input Hidden -->
+											<!-- Title -->
+											<div class="form-group form-outline">
+											  <input type="text" id="facebookTitle" name="facebookTitle" class="form-control rounded" placeholder="Enter your Facebook Title" />
+											  <label class="form-label" for="facebookTitle">Facebook Title</label>
+											</div>
+											<!-- End Title -->
+											<div class="form-group form-outline">
+												<textarea id="facebookDesc" name="facebookDesc" class="form-control" placeholder="Facebook Description" rows="4"></textarea>
+												<label class="form-label" for="facebookDesc">Facebook Description</label>
+											</div>
+										  </div>
+										  <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+										  	<h4 class="fs-20">Twitter Preview</h4>
+										  	<div class="row boxPreviewTwitter">
+										  		<div class="col-7">
+											  		<div class="card rounded-0">
+													  <img id="isPreviewImageTwitter" src="static/images/promotion/facebook.jpg">
+													  <div class="card-body rounded-0 py-2 px-2 bg-card-social">
+													    <h5 class="card-title text-dark fs-20 fs-18 font-weight-medium mb-0" id="isPreviewTitleTwitter">Title</h5>
+													    <p class="card-text text-dark lh-1" id="isPreviewDescTwitter">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+													  </div>
+													</div>
+											  		
+											  	</div>
+										  	</div>
+										  	<hr>
+										  	<div class="text-start"><img class="img-fluid" id="isImageTwitter" src="static/images/promotion/facebook.jpg"></div>
+										  	<div class="mt-3">
+											  	<button type="button" id="btnImgTwiterUpload" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 ms-auto rounded">Change Image</button>
+												<span id="imgTwiterFilePath"></span>
+												<input type="file" id="imgTwiterUpload" accept="image/*" style="display: none" />
+											</div>
+											<div class="mb-3">
+												<a href="javascript:;" class="text-danger removeImageTwitter" data-image-id="isImageTwitter"><i class="far fa-trash-can fs-16"></i> <span class="ms-2">Remove Image</span></a>
+											</div>
+									      	<!-- SEO Input Hidden -->
+									      	<input type="hidden" name="twitterImageURL" value="">
+									      	<input type="hidden" name="twitterImageWidth" value="">
+									      	<input type="hidden" name="twitterImageHeight" value="">
+									      	<input type="hidden" name="twitterImageType" value="">
+									      	<!-- End SEO Input Hidden -->
+											<!-- Title -->
+											<div class="form-group form-outline">
+											  <input type="text" id="twitterTitle" name="twitterTitle" class="form-control rounded" placeholder="Enter your Twitter Title" />
+											  <label class="form-label" for="facebookTitle">Twitter Title</label>
+											</div>
+											<!-- End Title -->
+											<div class="form-group form-outline">
+												<textarea id="twitterDesc" name="twitterDesc" class="form-control" placeholder="Twitter Description" rows="4"></textarea>
+												<label class="form-label" for="twitterDesc">Twitter Description</label>
+											</div>
+										  </div>
+										  <div class="tab-pane fade" id="ex1-tabs-4" role="tabpanel" aria-labelledby="ex1-tab-4"> 
+										  	<div class="form-group">
+												<textarea id="tags" name="tags" class="form-control" placeholder="TAGS" rows="10" readonly>
+	
+
+												</textarea>
+											</div>
+										  </div>
+										</div>
+										<!-- Tabs content -->
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End SEO Options -->
+
+							<!-- Header & Footer Scripts-->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingEight">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseEight" aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
+							        Header & Footer Scripts
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show" aria-labelledby="headingEight">
+							      <div class="accordion-body">
+							      		<!-- Tabs navs -->
+										<ul class="nav nav-tabs mb-3" id="ex2" role="tablist">
+										  <li class="nav-item" role="presentation">
+										    <a class="nav-link active fs-18 text-primary py-2" id="ex2-tab-1" data-mdb-toggle="tab" href="#ex2-tabs-1" role="tab" aria-controls="ex2-tabs-1" aria-selected="true">Header</a>
+										  </li>
+										  <li class="nav-item" role="presentation">
+										    <a class="nav-link fs-18 text-primary py-2" id="ex2-tab-2" data-mdb-toggle="tab" href="#ex2-tabs-2" role="tab" aria-controls="ex2-tabs-2" aria-selected="false">Footer</a>
+										  </li>
+										</ul>
+										<!-- Tabs navs -->
+										<!-- Tabs content -->
+										<div class="tab-content" id="ex2-content">
+										  <div class="tab-pane fade show active" id="ex2-tabs-1" role="tabpanel" aria-labelledby="ex1-tab-1"> 
+										  	<div class="row">
+										  		<div class="col-12 mb-4">
+												  	<h4 class="fs-20">CSS Code</h4>
+													<p class="fs-18">Lorem Ipsum is simply dummy simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+													<!-- Text -->
+													<div class="form-group">
+														<textarea id="customCSSCode" name="customCSSCode" class="form-control" placeholder="CSS Code" rows="5"></textarea>
+													</div>
+													<!-- End Text -->
+													<button type="submit" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded">Save Change</button>
+												</div>
+												<div class="col-12">
+													<h4 class="fs-20">JS Code</h4>
+													<p class="fs-18">Lorem Ipsum is simply dummy simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+													<!-- Text -->
+													<div class="form-group">
+														<textarea id="customJSCode" name="customJSCode" class="form-control" placeholder="JS Code" rows="5"></textarea>
+													</div>
+													<!-- End Text -->
+													<button type="submit" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded">Save Change</button>
+												</div>
+											</div>
+										  </div>
+										  <div class="tab-pane fade" id="ex2-tabs-2" role="tabpanel" aria-labelledby="ex2-tab-2">
+										  	<div class="row">
+										  		<div class="col-12 mb-4">
+												  	<h4 class="fs-20">CSS Code</h4>
+													<p class="fs-18">Lorem Ipsum is simply dummy simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+													<!-- Text -->
+													<div class="form-group">
+														<textarea id="customCSSCode" name="customCSSCode" class="form-control" placeholder="CSS Code" rows="5"></textarea>
+													</div>
+													<!-- End Text -->
+													<button type="submit" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded">Save Change</button>
+												</div>
+												<div class="col-12">
+													<h4 class="fs-20">JS Code</h4>
+													<p class="fs-18">Lorem Ipsum is simply dummy simply text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+													<!-- Text -->
+													<div class="form-group">
+														<textarea id="customJSCode" name="customJSCode" class="form-control" placeholder="JS Code" rows="5"></textarea>
+													</div>
+													<!-- End Text -->
+													<button type="submit" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded">Save Change</button>
+												</div>
+											</div>
+										  </div>
+										</div>
+										<!-- Tabs content -->
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Header & Footer Scripts -->
+			
+						</div>
+						<div class="col-md-12 col-xl-4 mb-5">
+							<!-- Publish -->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingNine">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseNine" aria-expanded="true" aria-controls="panelsStayOpen-collapseNine">
+							        Publish
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse show" aria-labelledby="headingNine">
+							    	<div class="accordion-body">
+
+							        	<a href="#dataPreviewsModalCenter" data-toggle="modal"class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded btn-block btn-wide">Preview</a>
+							        	<button type="submit" class="btn btn-sm btn-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded btn-block btn-wide">Update Post</button>
+							        	<ul class="py-4">
+							        		<li>Status: <span class="font-weight-medium" id="statusDetail">Active</span> <a href="#editStatusModal" data-mdb-toggle="modal" class="text-primary">Edit</a></li>
+							        		<li>Visibility: <span class="font-weight-medium" id="visibilityDetail">Inactive</span> <a href="#editVisibilityModal" data-mdb-toggle="modal" class="text-primary">Edit</a></li>
+							        		<li>Created Date: <span class="font-weight-medium">5 Feb 2023, 12:43 PM</span></li>
+							        		<li>Updated Date: <span class="font-weight-medium">7 Feb 2023, 08:43 PM</span></li>
+							        		<li>Published Date: <span class="font-weight-medium" id="publishDateDetail">8 Feb 2023, 02:43 PM</span> <a href="#editPublishDateModal" data-mdb-toggle="modal" class="text-primary">Edit</a></li>
+							        		<li>Created By: <span class="font-weight-medium">P1234567</span></li>
+							        		<li>Updated By: <span class="font-weight-medium">P1234567</span></li>
+							        		<li>Published By: <span class="font-weight-medium">P1234567</span></li>
+							        		<li>Views: <span class="font-weight-medium">53,456</span></li>
+							        		<li>SEO: <span class="font-weight-medium text-danger">Needs Improvement</span></li>
+							        		<li>Readability: <span class="font-weight-medium text-success">Good</span></li>
+							        	</ul>
+							        	<button type="submit" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded btn-block btn-wide"><i class="far fa-clipboard fs-16"></i> <span class="ms-2">Copy This Post</span></button>
+							        	<button type="submit" class="btn btn-sm btn-outline-danger btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded btn-block btn-wide"><i class="far fa-trash-can fs-16"></i> <span class="ms-2">Move to Trash</span></button>
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Publish -->
+
+						</div>
+						<div class="col-md-12 col-xl-8 d-flex">
+							<button type="submit" class="btn btn-sm btn-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded">Update Post</button>
+
+							<button type="button" class="btn btn-sm btn-outline-danger btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 ms-auto rounded">Cancel</button>
+						</div>
+
+					</div>
+				</div>
+				<!-- End Content Body -->
+			</div>
+			<!-- End Content -->
+		</main>
+		<!-- End Main -->
+
+		<!-- editPathURL Modals -->
+		<div class="modal fade" id="editPathURLModal" data-mdb-backdrop="static" data-mdb-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="editStatusModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+				<div class="modal-content ">
+					<div class="modal-header">
+						<h5 class="modal-title fs-24 font-weight-medium" id="dateCategoriesModalCenterTitle">URL</h5>
+						<button type="button" class="close" data-mdb-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-32">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body pb-0">
+						<div class="row g-3 align-items-center">
+						  <div class="col-auto">
+						    <label for="inputPassword6" class="col-form-label">https://sulpyamu.ideabranch.co.th/</label>
+						  </div>
+						  <div class="col-auto">
+						    <input type="text" id="pathURL" name="pathURL" class="form-control rounded" value="">
+						  </div>
+						</div>
+					</div>
+					<div class="modal-footer">
+				        <button type="button" class="btn btn-white text-muted text-uppercase fs-18 rounded" data-mdb-dismiss="modal">Cancel</button>
+				        <button type="button" class="btn btn-primary btn-apply fs-18">Apply</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<!-- End editPathURL Modals -->
+
+		<!-- editStatus Modals -->
+		<div class="modal fade" id="editStatusModal" data-mdb-backdrop="static" data-mdb-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="editStatusModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+				<div class="modal-content ">
+					<div class="modal-header">
+						<h5 class="modal-title fs-24 font-weight-medium" id="dateCategoriesModalCenterTitle">Status</h5>
+						<button type="button" class="close" data-mdb-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-32">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body pb-0">
+						<div class="form-row">
+							<div class="col-12">
+								<!-- Status -->
+								<div class="form-group">
+								  <select class="select" name="status">
+								  	  <option value="">Please select status</option>
+									  <option value="Active">Active</option>
+									  <option value="Inactive">Inactive</option>
+									</select>
+									<label class="form-label select-label">Status</label>
+								</div>
+								<!-- End Status -->
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+				        <button type="button" class="btn btn-white text-muted text-uppercase fs-18 rounded" data-mdb-dismiss="modal">Cancel</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<!-- End editStatus Modals -->
+
+		<!-- editVisibility Modals -->
+		<div class="modal fade" id="editVisibilityModal" data-mdb-backdrop="static" data-mdb-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="editVisibilityModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+				<div class="modal-content ">
+					<div class="modal-header">
+						<h5 class="modal-title fs-24 font-weight-medium" id="editVisibilityModalCenterTitle">Status</h5>
+						<button type="button" class="close" data-mdb-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-32">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body pb-0">
+						<div class="form-row">
+							<div class="col-12">
+								<!-- Status -->
+								<div class="form-group">
+								  <select class="select" name="visibility">
+								  	  <option value="">Please select status</option>
+									  <option value="Active">Active</option>
+									  <option value="Inactive">Inactive</option>
+									</select>
+									<label class="form-label select-label">Status</label>
+								</div>
+								<!-- End Status -->
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+				        <button type="button" class="btn btn-white text-muted text-uppercase fs-18 rounded" data-mdb-dismiss="modal">Cancel</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<!-- End editVisibility Modals -->
+
+		<!-- editPublishDate Modals -->
+		<div class="modal fade" id="editPublishDateModal" tabindex="-1" role="dialog" aria-labelledby="dateCategoriesModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+				<div class="modal-content ">
+					<div class="modal-header ">
+						<h5 class="modal-title fs-24 font-weight-medium" id="dateCategoriesModalCenterTitle">Publish Date</h5>
+						<button type="button" class="close" data-mdb-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-32">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body pb-0">
+						<div class="form-row">
+							<div class="col-12">
+
+								<!-- Date -->
+								<div class="form-group form-outline" id="publishDateTimePicker">
+								  <input type="text" class="form-control rounded-sm" id="publishDate" name="publishDate" placeholder="dd, mmm yyyy" />
+								  <label for="publishDate" class="form-label">Select Date and Time</label>
+								</div>
+								<!-- End Date -->
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+				        <button type="button" class="btn btn-white text-muted text-uppercase fs-18 rounded" data-mdb-dismiss="modal">Cancel</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<!-- End editPublishDate Modals -->
+
+
+		<!-- Previews Modals -->
+		<div class="modal fade" id="dataPreviewsModalCenter" tabindex="-1" role="dialog" aria-labelledby="datePreviewsModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+				<div class="modal-content bg-transparent border-0 py-0 shadow-none">
+					<div class="modal-header border-0 py-0">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-48 text-white">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body pt-0">
+						<img class="img-fluid rounded" src="static/images/page/page-desktop.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Previews Modals -->
+
+		
+
+
+		<!-- Global Vendor -->
+		<script src="static/libs/jquery/dist/jquery.min.js"></script>
+		<script src="static/libs/jquery-migrate/jquery-migrate.min.js"></script>
+		<script src="static/libs/popper.js/dist/umd/popper.min.js"></script>
+		<script src="static/libs/bootstrap-4.3.0/dist/js/bootstrap.min.js"></script>
+		<script src="static/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+		
+		<!-- MDB -->
+		<script src="static/libs/md-bootstrap/js/mdb.min.js"></script>
+		<script src="static/libs/md-bootstrap/plugins/js/all.min.js"></script>
+
+		<!-- Plugins -->
+		<script src="static/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="static/libs/chart.js/dist/Chart.min.js"></script>
+		<script src="static/libs/chartjs-plugin-style/dist/chartjs-plugin-style.min.js"></script>
+
+		<!-- Initialization  -->
+		<script src="static/js/sidebar-nav.js"></script>
+		<script src="static/js/main.js?v=0.0.3"></script>
+		<script src="static/js/page/form.js?v=0.0.39"></script>
+
+
+
+
+	</body>
+	<!-- End Body -->
+</html>

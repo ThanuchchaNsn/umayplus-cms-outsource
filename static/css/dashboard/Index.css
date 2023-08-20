@@ -1,0 +1,11 @@
+.text-secondary{
+    color:var(--secondary-text)
+}
+.group-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-square{
+    font-size: 25px;
+}

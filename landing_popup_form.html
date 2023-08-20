@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<!-- Head -->
+	<head>
+		<title>Landing Popup Detail</title>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+		<!-- Web Fonts -->
+		<!-- Components Vendor Styles -->
+		<link rel="stylesheet" href="static/libs/bootstrap/dist/css/bootstrap.min.css" />
+		<!-- MDB-->
+		<link rel="stylesheet" href="static/libs/md-bootstrap/css/mdb.min.css" />
+		<link rel="stylesheet" href="static/libs/md-bootstrap/plugins/css/all.min.css" />
+	
+		<!-- Icon SVG -->
+		<link rel="stylesheet" href="static/icon/themify/themify-icons.css?v=0.0.1">
+		<link rel="stylesheet" href="static/icon/icomoon/style.css?v=0.0.1">
+		<!-- Scrollbar -->
+		<link rel="stylesheet" href="static/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+		<!-- Fontawesome -->
+		<link rel="stylesheet" href="static/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<link rel="stylesheet" href="static/libs/fontawesome-free-6.4.0-web/css/all.min.css">
+		<!-- Theme Styles -->
+		<link rel="stylesheet" href="static/css/theme.css?v=0.31">
+		<link rel="stylesheet" href="static/css/main.css?v=0.0.7">
+		
+	</head>
+	<!-- End Head -->
+	<!-- Body -->
+	<body>
+		<!-- Header (Topbar) -->
+		<header class="u-header">
+			<!-- Header Left Section -->
+			<div class="u-header-left ">
+				<!-- Header Logo -->
+				<a class="u-header-logo" href="index.html">
+					<img class="u-header-logo__icon" src="static/svg/logo.svg" alt="Umay+">
+				</a>
+				<!-- End Header Logo -->
+			</div>
+			<!-- End Header Left Section -->
+
+			<!-- Header Middle Section -->
+			<div class="u-header-middle">
+				<!-- Sidebar Invoker -->
+				<div class="u-header-section ps-0">
+					<a class="js-sidebar-invoker u-header-invoker u-sidebar-invoker" href="#"
+					   data-is-close-all-except-this="true"
+					   data-target="#sidebar">
+						<span class="ti-align-left u-header-invoker__icon u-sidebar-invoker__icon--open"></span>
+						<span class="ti-align-justify u-header-invoker__icon u-sidebar-invoker__icon--close"></span>
+					</a>
+				</div>
+				<!-- End Sidebar Invoker -->
+
+				<!-- Header Search -->
+				<div class="u-header-section justify-content-sm-start flex-grow-1 py-0">
+
+				</div>
+				<!-- End Header Search -->
+
+				<!-- User Profile -->
+				<div class="u-header-section u-header-section--profile">
+					<div class="u-header-dropdown dropdown">
+						<a class="link-muted d-flex align-items-center" href="#" role="button" id="userProfileInvoker" aria-haspopup="true" aria-expanded="false"
+						   data-toggle="dropdown"
+						   data-offset="0">
+							<img class="u-header-avatar img-fluid rounded-circle mr-md-3" src="static/images/avatars/user-unknown.jpg" alt="User Profile">
+							<span class="text-dark d-none d-md-inline-flex align-items-center">
+								Administator
+								<span class="ti-angle-down text-muted ml-4 fs-16"></span>
+							</span>
+						</a>
+
+						<div class="u-header-dropdown__menu dropdown-menu dropdown-menu-right" aria-labelledby="userProfileInvoker" style="width: 260px;">
+							<div class="card p-3">
+								<div class="card-body p-0">
+									<ul class="list-unstyled mb-0">
+										<li class="mb-3">
+											<a class="link-dark" href="#">View Profile</a>
+										</li>
+										<li class="mb-3">
+											<a class="link-dark" href="#">Settings</a>
+										</li>
+										<li>
+											<a class="link-dark" href="#">Sign Out</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End User Profile -->
+			</div>
+			<!-- End Header Middle Section -->
+		</header>
+		<!-- End Header (Topbar) -->
+		<!-- Main -->
+		<main class="u-main">
+			<!-- Sidebar -->
+			<aside id="sidebar" class="u-sidebar ">
+				<div class="u-sidebar-inner">
+					<!-- Sidebar Header -->
+					<header class="u-sidebar-header">
+						<!-- Sidebar Logo -->
+						<a class="u-sidebar-logo" href="index.html">
+							<img class="u-sidebar-logo__icon" src="static/svg/logo.svg" alt="Umay+">
+						</a>
+						<!-- End Sidebar Logo -->
+					</header>
+					<!-- End Sidebar Header -->
+
+					<!-- Sidebar Nav -->
+					<nav class="u-sidebar-nav">
+						<!-- Sidebar Nav Menu -->
+						<ul class="u-sidebar-nav-menu u-sidebar-nav-menu--top-level">
+							<!-- Dashboard -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="index.html">
+									<span class="icon-dashboard-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Dashboard</span>
+								</a>
+							</li>
+							<!-- End Dashboard -->
+							<!-- Heatmap -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="heatmap.html">
+									<span class="icon-heatmap-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Heatmap</span>
+								</a>
+							</li>
+							<!-- End Heatmap -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Website</small>
+							</li>
+
+							<!-- Promotions -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="promotion.html"
+								   data-target="#menuItemPromotion">
+									<span class="icon-promotion-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Promotions</span>
+									<span class="ti-angle-down u-sidebar-nav-menu__item-arrow"></span>
+								</a>
+
+								<ul id="menuItemPromotion" class="u-sidebar-nav-menu u-sidebar-nav-menu--second-level" style="display: none;">
+									<!-- Lists -->
+									<li class="u-sidebar-nav-menu__item">
+										<a class="u-sidebar-nav-menu__link" href="#">
+											<span class="u-sidebar-nav-menu__item-icon"></span>
+											<span class="u-sidebar-nav-menu__item-title">Lists</span>
+										</a>
+									</li>
+									<!-- End Lists -->
+								</ul>
+							</li>
+							<!-- End Promotions -->
+
+							<!-- News & Activities -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="news-activity.html">
+									<span class="icon-news-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">News & Activities</span>
+								</a>
+							</li>
+							<!-- End News & Activities -->
+
+							<!-- Blog -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="blog.html">
+									<span class="icon-blog-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Blog</span>
+								</a>
+							</li>
+							<!-- End Blog -->
+
+							<!-- Video -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="video.html">
+									<span class="icon-video-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Video</span>
+								</a>
+							</li>
+							<!-- End Video -->
+
+							<!-- Header -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="header.html"
+								   data-target="#menuItemAccountPages">
+									<span class="icon-header-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Header</span>
+								</a>
+							</li>
+							<!-- End Header -->
+
+							<!-- Footer -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="footer.html">
+									<span class="icon-footer-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Footer</span>
+								</a>
+							</li>
+							<!-- End Footer -->
+
+							<!-- Banner -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="banner.html">
+									<span class="icon-banner-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Banner</span>
+								</a>
+							</li>
+							<!-- End Banner -->
+
+							<!-- Pages -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="page.html">
+									<span class="icon-pages-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Pages</span>
+								</a>
+							</li>
+							<!-- End Pages -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Management</small>
+							</li>
+
+							<!-- Category -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="category.html">
+									<span class="icon-category-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Category</span>
+								</a>
+							</li>
+							<!-- End Category -->
+
+							<!-- Tag -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="tags.html">
+									<span class="icon-tag-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Tag</span>
+								</a>
+							</li>
+							<!-- End Tag -->
+
+							<!-- Media -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="media-library.html">
+									<span class="icon-media-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Media</span>
+								</a>
+							</li>
+							<!-- End Media -->
+
+							<!-- Landing Popup -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link active" href="landing_popup.html">
+									<span class="icon-landingPopup-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Landing Popup</span>
+								</a>
+							</li>
+							<!-- End Landing Popup -->
+
+							<!-- PDPA -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="pdpa.html">
+									<span class="icon-pdpa-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">PDPA</span>
+								</a>
+							</li>
+							<!-- End PDPA -->
+
+							<!-- Bitly -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-bitly-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Bitly</span>
+								</a>
+							</li>
+							<!-- End Bitly -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Settings</small>
+							</li>
+
+							<!-- Custom CSS Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="custom-css-code.html">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom CSS Code</span>
+								</a>
+							</li>
+							<!-- End Custom CSS Code -->
+
+							<!-- Custom JS Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="custom-js-code.html">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom JS Code</span>
+								</a>
+							</li>
+							<!-- End Custom JS Code -->
+
+							<!-- Custom GA4 Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="custom-ga-code.html">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom GA4 Code</span>
+								</a>
+							</li>
+							<!-- End Custom GA4 Code -->
+
+							<!-- Facebook Chatbox -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="facebook-chatbot.html">
+									<span class="icon-facebook-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Facebook Chatbox</span>
+								</a>
+							</li>
+							<!-- End Facebook Chatbox -->
+
+							<!-- Sitemap & Robots -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-sitemap-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Sitemap & Robots</span>
+								</a>
+							</li>
+							<!-- End Sitemap & Robots -->
+
+							<!-- Maintenance Mode -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="maintenance-mode.html">
+									<span class="icon-maintenance-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Maintenance Mode</span>
+								</a>
+							</li>
+							<!-- End Maintenance Mode -->
+
+						</ul>
+						<!-- End Sidebar Nav Menu -->
+					</nav>
+					<!-- End Sidebar Nav -->
+				</div>
+			</aside>
+			<!-- End Sidebar -->
+
+			<!-- Content -->
+			<div class="u-content">
+				<!-- Body -->
+				<div class="u-body-top py-8 position-absolute w-100">
+					<div class="row mb-5">
+						<div class="col-sm-12 col-xl-3">
+							
+						</div>
+					</div>
+				</div>
+				<!-- End Body -->
+				<!-- Content Body -->
+				<div class="u-body mt-4 mt-xl-4">
+					<div class="row">
+						<div class="col-md-12 col-xl-8 mb-5">
+							<!-- Card -->
+							<div class="card rounded mb-5">
+								<!-- Card Header -->
+								<header class="card-header rounded-top border-bottom py-3">
+									<div class="row">
+										<div class="col-12 col-xl-12">
+											<h2 class="h4 card-header-title font-weight-medium fs-34">Landing Popup Detail</h2>
+										</div>
+									</div>
+								</header>
+								<!-- End Card Header -->
+
+								<!-- Card Body -->
+								<div class="card-body">
+									<!-- Title -->
+									<div class="form-group form-outline">
+									  <input type="text" id="name" name="name" class="form-control rounded" placeholder="Enter your Title" />
+									  <label class="form-label" for="name">Title</label>
+									</div>
+									<!-- End Title -->
+									<!-- Link -->
+									
+									<div class="form-group">
+									  <div class="form-group">
+									    <select class="rssRowContainerSelectPage select" name="isPage">
+										  <option class="rssRow" value="Home">Home</option>
+										  <option class="rssRow" value="Promotion">Promotion</option>
+										</select>
+									  <label class="form-label select-label" for="page">Page</label>
+									</div>
+									</div>
+									<!-- End Link -->
+									<a href="#dataSelectPageModalCenter" data-mdb-toggle="modal" class="text-primary font-weight-medium text-decoration-underline"><i class="fas fa-plus fs-12"></i> Add Page</a>
+		
+									
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Card -->
+
+							<!-- Upload Image or Video-->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingDesktopPicture">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseDesktopPicture" aria-expanded="true" aria-controls="panelsStayOpen-collapseDesktopPicture">
+							        Upload Image or Video
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseDesktopPicture" class="accordion-collapse collapse show" aria-labelledby="headingDesktopPicture">
+							      <div class="accordion-body">
+								      	<!-- videoLink -->
+										<div class="form-group form-outline mb-2">
+										  <input type="text" id="videoLink" name="videoLink" class="form-control rounded" placeholder="VDO Link" />
+										  <label class="form-label" for="videoLink">VDO Link</label>
+										</div>
+										<!-- End videoLink -->
+							      		<div class="text-disabled mb-2 ms-2">or</div>
+							      		<div class="form-group mb-0">
+											<input type="file" class="form-control mb-2 w-50 rounded" name="bannerLandingPopup" id="bannerLandingPopup" accept="image/*" data-preview="bannerLandingPopupPreview" data-size="548,320" data-type="png,jpg" data-maxsize="1MB"/>
+							        	</div>
+							        	<label class="form-label text-lh-1" for="bannerLandingPopup">
+											Allowed size : 548x320 px [Not over 1MB]<br>
+											Allowed type : .png / .jpg
+										</label>
+										<div class="d-flex justify-content-center">
+											<div class="img-wrap">
+											    <span class="close"><i class="far fa-trash-can fs-16"></i></span>
+											    <img class="img-fluid" id="bannerLandingPopupPreview" src="static/images/landing-popup/202307121138.jpg" data-id="1" data-input-id="bannerLandingPopup">
+											</div>
+										</div>
+							      	</div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Upload Image or Video -->
+
+							<!-- Title (Optional)-->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingOptional1">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseOptional1" aria-expanded="true" aria-controls="panelsStayOpen-collapseOptional1">
+							        Title (Optional)
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseOptional1" class="accordion-collapse collapse show" aria-labelledby="headingDesktopPicture">
+							      <div class="accordion-body">
+							      		<div class="form-group">
+							      			<textarea name="mainTitle" class="tinymce_custom form-control" rows="3">เพื่อนชวนเพื่อน สมัครบัตรกดเงินสดยูเมะพลัส</textarea>
+							      		</div>
+							      	</div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Title (Optional) -->
+
+							<!-- Subtitle (Optional)-->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingOptional1">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseOptional1" aria-expanded="true" aria-controls="panelsStayOpen-collapseOptional1">
+							        Subtitle (Optional)
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseOptional1" class="accordion-collapse collapse show" aria-labelledby="headingDesktopPicture">
+							      <div class="accordion-body">
+							      		<div class="form-group">
+							      			<textarea name="subTitle" class="tinymce_custom form-control rounded" rows="3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</textarea>
+							      		</div>
+							      	</div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Subtitle (Optional) -->
+
+							<!-- Button-->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item border-0">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingButton1">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseButton1" aria-expanded="true" aria-controls="panelsStayOpen-collapseButton1">
+							        Button
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseButton1" class="accordion-collapse collapse show" aria-labelledby="headingButton">
+							      <div class="accordion-body">
+							      		<!-- Text -->
+										<div class="form-group form-outline">
+										  <input type="text" id="textButton" name="textButton" class="form-control rounded" placeholder="Text" />
+										  <label class="form-label" for="textButton">Text</label>
+										</div>
+										<!-- End Text -->
+										<div class="form-group">
+							        		<select class="select" name="colorButton" id="colorButton">
+							        		  <option value="">Color</option>
+											  <option value="#E31C79">Pink</option>
+											  <option value="#003F67">Blue</option>
+											</select>
+											<label class="form-label select-label">Color</label>
+							        	</div>
+										<!-- Link -->
+										<div class="form-group form-outline mb-2">
+										  <input type="text" id="linkButton" name="linkButton" class="form-control rounded" placeholder="Text" />
+										  <label class="form-label" for="linkButton">Link</label>
+										</div>
+										<!-- End Link -->
+
+							      	</div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Button -->
+						</div>
+
+						<div class="col-md-12 col-xl-4 mb-5">
+							<!-- Publish -->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingNine">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapseNine" aria-expanded="true" aria-controls="panelsStayOpen-collapseNine">
+							        Publish
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse show" aria-labelledby="headingNine">
+							    	<div class="accordion-body">
+							        	<button type="submit" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded btn-block btn-wide preview-button">Preview</button>
+							        	<button type="submit" class="btn btn-sm btn-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded btn-block btn-wide">Update Post</button>
+							        	<ul class="py-4">
+							        		
+							        		<li>Status: <span class="font-weight-medium" id="statusDetail">Active</span> <a href="#editStatusModal" data-mdb-toggle="modal" class="text-primary">Edit</a></li>
+							        		<li>Start Date: <span class="font-weight-medium" id="startDateSelect">-</span> <a href="#selectStartDateModal" data-mdb-toggle="modal" class="text-primary">Edit</a></li>
+							        		<li>End Date: <span class="font-weight-medium" id="endDateSelect">-</span> <a href="#selectEndDateModal" data-mdb-toggle="modal" class="text-primary">Edit</a></li>
+							        		<li>Created Date: <span class="font-weight-medium">5 Feb 2023, 12:43 PM</span></li>
+							        		<li>Updated Date: <span class="font-weight-medium">7 Feb 2023, 08:43 PM</span></li>
+							        		<li>Published Date: <span class="font-weight-medium" id="publishDateDetail">8 Feb 2023, 02:43 PM</span> <a href="#editPublishDateModal" data-mdb-toggle="modal" class="text-primary">Edit</a></li>
+							        		<li>Created By: <span class="font-weight-medium">P1234567</span></li>
+							        		<li>Updated By: <span class="font-weight-medium">P1234567</span></li>
+							        		<li>Published By: <span class="font-weight-medium">P1234567</span></li>
+							        		<li>Views: <span class="font-weight-medium">53,456</span></li>
+							        		<li>SEO: <span class="font-weight-medium text-danger">Needs Improvement</span></li>
+							        		<li>Readability: <span class="font-weight-medium text-success">Good</span></li>
+							        	</ul>
+							        	<button type="submit" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded btn-block btn-wide"><i class="far fa-clipboard fs-16"></i> <span class="ms-2">Copy This Post</span></button>
+							        	<button type="submit" class="btn btn-sm btn-outline-danger btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded btn-block btn-wide"><i class="far fa-trash-can fs-16"></i> <span class="ms-2">Move to Trash</span></button>
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Publish -->
+
+							<!-- Banner Priority -->
+							<div class="card rounded accordion mb-5" id="accordionPanelsStayOpen">
+							  <div class="accordion-item">
+							  	<!-- Accordion Header -->
+							    <h2 class="accordion-header" id="headingPriority">
+							      <button class="accordion-button fs-20 py-2 font-weight-medium text-dark" type="button" data-mdb-toggle="collapse"
+							        data-mdb-target="#panelsStayOpen-collapsePriority" aria-expanded="true" aria-controls="panelsStayOpen-collapsePriority">
+							        Landing Popup Priority
+							      </button>
+							    </h2>
+							    <!-- End Accordion Header -->
+							    <!-- Accordion Body -->
+							    <div id="panelsStayOpen-collapsePriority" class="accordion-collapse collapse show" aria-labelledby="headingTen">
+							    	<div class="accordion-body">
+							        	<div class="form-group mb-2">
+							        		<select class="select">
+											  <option value="1">1</option>
+											  <option value="2">2</option>
+											  <option value="3">3</option>
+											  <option value="4">4</option>
+											  <option value="5">5</option>
+											  <option value="6">6</option>
+											  <option value="7">7</option>
+											  <option value="8">8</option>
+											  <option value="9">9</option>
+											  <option value="10">10</option>
+											  <option value="None">None</option>
+											</select>
+							        	</div>
+							      </div>
+							    </div>
+							    <!-- End Accordion Body -->
+							  </div>
+							</div>
+							<!-- End Banner Priority -->
+						</div>
+
+						<div class="col-md-12 col-xl-8 d-flex">
+							<button type="submit" class="btn btn-sm btn-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded">Update Post</button>
+
+							<button type="button" class="btn btn-sm btn-outline-danger btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 ms-auto rounded">Cancel</button>
+						</div>
+
+					</div>
+				</div>
+				<!-- End Content Body -->
+			</div>
+			<!-- End Content -->
+		</main>
+		<!-- End Main -->
+
+		<!-- Page Modals -->
+		<div class="modal fade" id="dataSelectPageModalCenter" tabindex="-1" role="dialog" aria-labelledby="dateSelectPageModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+				<div class="modal-content ">
+					<div class="modal-header ">
+						<h5 class="modal-title fs-24 font-weight-medium" id="dateSelectPageModalCenterTitle">Add New Page</h5>
+						<button type="button" class="close" data-mdb-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-32">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body pb-0">
+						<div class="form-row">
+							<div class="col-12">
+								<!-- Page Name -->
+								<div class="form-group form-outline">
+								  <input type="text" id="pageName" name="pageName" class="form-control rounded" placeholder="Page Name" />
+								  <label class="form-label" for="pageName">Page Name</label>
+								</div>
+								<!-- End Page Name -->
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer border-0 pt-0">
+						<button type="button" class="btn btn-primary btn-apply-select-page fs-18">Add</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Page Modals -->
+
+		<!-- editStatus Modals -->
+		<div class="modal fade" id="editStatusModal" data-mdb-backdrop="static" data-mdb-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="editStatusModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+				<div class="modal-content ">
+					<div class="modal-header">
+						<h5 class="modal-title fs-24 font-weight-medium" id="dateCategoriesModalCenterTitle">Status</h5>
+						<button type="button" class="close" data-mdb-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-32">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body pb-0">
+						<div class="form-row">
+							<div class="col-12">
+								<!-- Status -->
+								<div class="form-group">
+								  <select class="select" name="status">
+								  	  <option value="">Please select status</option>
+									  <option value="Active">Active</option>
+									  <option value="Inactive">Inactive</option>
+									</select>
+									<label class="form-label select-label">Status</label>
+								</div>
+								<!-- End Status -->
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+				        <button type="button" class="btn btn-white text-muted text-uppercase fs-18 rounded" data-mdb-dismiss="modal">Cancel</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<!-- End editStatus Modals -->
+
+		<!-- editVisibility Modals -->
+		<div class="modal fade" id="editVisibilityModal" data-mdb-backdrop="static" data-mdb-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="editVisibilityModalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+				<div class="modal-content ">
+					<div class="modal-header">
+						<h5 class="modal-title fs-24 font-weight-medium" id="editVisibilityModalCenterTitle">Status</h5>
+						<button type="button" class="close" data-mdb-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-32">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body pb-0">
+						<div class="form-row">
+							<div class="col-12">
+								<!-- Status -->
+								<div class="form-group">
+								  <select class="select" name="visibility">
+								  	  <option value="">Please select status</option>
+									  <option value="Active">Active</option>
+									  <option value="Inactive">Inactive</option>
+									</select>
+									<label class="form-label select-label">Status</label>
+								</div>
+								<!-- End Status -->
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+				        <button type="button" class="btn btn-white text-muted text-uppercase fs-18 rounded" data-mdb-dismiss="modal">Cancel</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<!-- End editVisibility Modals -->
+
+		<!-- selectStartDateModal Modals -->
+		<div class="modal fade" id="selectStartDateModal" tabindex="-1" role="dialog" aria-labelledby="dateCategoriesModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+				<div class="modal-content ">
+					<div class="modal-header ">
+						<h5 class="modal-title fs-24 font-weight-medium" id="dateStartShowModalCenterTitle">Start Show Date</h5>
+						<button type="button" class="close" data-mdb-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-32">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body pb-0">
+						<div class="form-row">
+							<div class="col-12">
+
+								<!-- Date -->
+								<div class="form-group form-outline" id="startShowDateTimePicker">
+									  <input type="text" class="form-control rounded-sm" id="startShowDate" name="startShowDate" placeholder="dd mm yyyy, hh:mm A" />
+								</div>
+								<!-- End Date -->
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+				        <button type="button" class="btn btn-white text-muted text-uppercase fs-18 rounded" data-mdb-dismiss="modal">Cancel</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<!-- End selectStartDateModal Modals -->
+
+		<!-- selectEndDateModal Modals -->
+		<div class="modal fade" id="selectEndDateModal" tabindex="-1" role="dialog" aria-labelledby="dateCategoriesModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+				<div class="modal-content ">
+					<div class="modal-header ">
+						<h5 class="modal-title fs-24 font-weight-medium" id="dateEndShowModalCenterTitle">End Show Date</h5>
+						<button type="button" class="close" data-mdb-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-32">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body pb-0">
+						<div class="form-row">
+							<div class="col-12">
+
+								<!-- Date -->
+								<div class="form-group form-outline" id="endShowDateTimePicker">
+									  <input type="text" class="form-control rounded-sm" id="endShowDate" name="endShowDate" placeholder="dd mm yyyy, hh:mm A" />
+								</div>
+								<!-- End Date -->
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+				        <button type="button" class="btn btn-white text-muted text-uppercase fs-18 rounded" data-mdb-dismiss="modal">Cancel</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<!-- End selectEndDateModal Modals -->
+
+		<!-- editPublishDate Modals -->
+		<div class="modal fade" id="editPublishDateModal" tabindex="-1" role="dialog" aria-labelledby="dateCategoriesModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+				<div class="modal-content ">
+					<div class="modal-header ">
+						<h5 class="modal-title fs-24 font-weight-medium" id="dateCategoriesModalCenterTitle">Publish Date</h5>
+						<button type="button" class="close" data-mdb-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-32">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body pb-0">
+						<div class="form-row">
+							<div class="col-12">
+
+								<!-- Date -->
+								<div class="form-group form-outline" id="publishDateTimePicker">
+								  <input type="text" class="form-control rounded-sm" id="publishDate" name="publishDate" placeholder="dd mm yyyy, hh:mm A" />
+								</div>
+								<!-- End Date -->
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+				        <button type="button" class="btn btn-white text-muted text-uppercase fs-18 rounded" data-mdb-dismiss="modal">Cancel</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<!-- End editPublishDate Modals -->
+
+		<!-- Previews Modals -->
+		<div class="modal fade" id="dataPreviewsModalCenter" tabindex="-1" role="dialog" aria-labelledby="datePreviewsModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+				<div class="modal-content">
+					<div class="modal-header text-center border-0 py-0">
+						<h5 class="modal-title w-100 text-center fs-24 font-weight-medium pt-2" id="modalHeadPreview"></h5>
+						<button type="button" class="close ms-0" data-mdb-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-48">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body p-0" id="modalBodyPreview">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Previews Modals -->
+		<!-- Global Vendor -->
+		<script src="static/libs/jquery/dist/jquery.min.js"></script>
+		<script src="static/libs/jquery-migrate/jquery-migrate.min.js"></script>
+		<script src="static/libs/popper.js/dist/umd/popper.min.js"></script>
+		<script src="static/libs/bootstrap-4.3.0/dist/js/bootstrap.min.js"></script>
+		<script src="static/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+		
+		<!-- MDB -->
+		<script src="static/libs/md-bootstrap/js/mdb.min.js"></script>
+		<script src="static/libs/md-bootstrap/js/modules/datepicker.min.js"></script>
+		<script src="static/libs/md-bootstrap/plugins/js/all.min.js"></script>
+
+		<!-- TINYNCE -->
+        <script src="static/libs/tinymce/5.0.5/tinymce.min.js"></script>
+        <script src="static/js/editor.js?v=0.0.2"></script>
+		<script src="static/js/editor_custom.js?v=0.0.3"></script>
+
+		<!-- Plugins -->
+		<script src="static/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="static/libs/chart.js/dist/Chart.min.js"></script>
+		<script src="static/libs/chartjs-plugin-style/dist/chartjs-plugin-style.min.js"></script>
+
+		<!-- Initialization  -->
+		<script src="static/js/sidebar-nav.js"></script>
+		<script src="static/js/main.js?v=0.0.3"></script>
+		<script src="static/js/main.func.js?v=0.0.4"></script>
+		<script src="static/js/landing-popup/form.js?v=0.0.19"></script>
+
+
+
+
+	</body>
+	<!-- End Body -->
+</html>

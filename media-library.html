@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<!-- Head -->
+	<head>
+		<title>Media Library</title>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+		<!-- Web Fonts -->
+		<!-- Components Vendor Styles -->
+		<link rel="stylesheet" href="static/libs/bootstrap/dist/css/bootstrap.min.css" />
+		<!-- MDB-->
+		<link rel="stylesheet" href="static/libs/md-bootstrap/css/mdb.min.css" />
+		<link rel="stylesheet" href="static/libs/md-bootstrap/plugins/css/all.min.css" />
+		<!-- Icon SVG -->
+		<link rel="stylesheet" href="static/icon/themify/themify-icons.css?v=0.0.1">
+		<link rel="stylesheet" href="static/icon/icomoon/style.css?v=0.0.1">
+		<!-- Scrollbar -->
+		<link rel="stylesheet" href="static/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+		<!-- Fontawesome -->
+		<link rel="stylesheet" href="static/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<link rel="stylesheet" href="static/libs/fontawesome-free-6.4.0-web/css/all.min.css">
+		<!-- Theme Styles -->
+		<link rel="stylesheet" href="static/css/theme.css?v=0.19">
+		<link rel="stylesheet" href="static/css/main.css?v=0.0.6">
+		
+	</head>
+	<!-- End Head -->
+	<!-- Body -->
+	<body>
+
+		<!-- Header (Topbar) -->
+		<header class="u-header">
+			<!-- Header Left Section -->
+			<div class="u-header-left ">
+				<!-- Header Logo -->
+				<a class="u-header-logo" href="index.html">
+					<img class="u-header-logo__icon" src="static/svg/logo.svg" alt="Umay+">
+				</a>
+				<!-- End Header Logo -->
+			</div>
+			<!-- End Header Left Section -->
+
+			<!-- Header Middle Section -->
+			<div class="u-header-middle">
+				<!-- Sidebar Invoker -->
+				<div class="u-header-section ps-0">
+					<a class="js-sidebar-invoker u-header-invoker u-sidebar-invoker" href="#"
+					   data-is-close-all-except-this="true"
+					   data-target="#sidebar">
+						<span class="ti-align-left u-header-invoker__icon u-sidebar-invoker__icon--open"></span>
+						<span class="ti-align-justify u-header-invoker__icon u-sidebar-invoker__icon--close"></span>
+					</a>
+				</div>
+				<!-- End Sidebar Invoker -->
+
+				<!-- Header Search -->
+				<div class="u-header-section justify-content-sm-start flex-grow-1 py-0">
+
+				</div>
+				<!-- End Header Search -->
+
+				<!-- User Profile -->
+				<div class="u-header-section u-header-section--profile">
+					<div class="u-header-dropdown dropdown">
+						<a class="link-muted d-flex align-items-center" href="#" role="button" id="userProfileInvoker" aria-haspopup="true" aria-expanded="false"
+						   data-toggle="dropdown"
+						   data-offset="0">
+							<img class="u-header-avatar img-fluid rounded-circle mr-md-3" src="static/images/avatars/user-unknown.jpg" alt="User Profile">
+							<span class="text-dark d-none d-md-inline-flex align-items-center">
+								Administator
+								<span class="ti-angle-down text-muted ml-4 fs-16"></span>
+							</span>
+						</a>
+
+						<div class="u-header-dropdown__menu dropdown-menu dropdown-menu-right" aria-labelledby="userProfileInvoker" style="width: 260px;">
+							<div class="card p-3">
+								<div class="card-body p-0">
+									<ul class="list-unstyled mb-0">
+										<li class="mb-3">
+											<a class="link-dark" href="#">View Profile</a>
+										</li>
+										<li class="mb-3">
+											<a class="link-dark" href="#">Settings</a>
+										</li>
+										<li>
+											<a class="link-dark" href="#">Sign Out</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End User Profile -->
+			</div>
+			<!-- End Header Middle Section -->
+		</header>
+		<!-- End Header (Topbar) -->
+		<!-- Main -->
+		<main class="u-main">
+			<!-- Sidebar -->
+			<aside id="sidebar" class="u-sidebar ">
+				<div class="u-sidebar-inner">
+					<!-- Sidebar Header -->
+					<header class="u-sidebar-header">
+						<!-- Sidebar Logo -->
+						<a class="u-sidebar-logo" href="index.html">
+							<img class="u-sidebar-logo__icon" src="static/svg/logo.svg" alt="Umay+">
+						</a>
+						<!-- End Sidebar Logo -->
+					</header>
+					<!-- End Sidebar Header -->
+
+					<!-- Sidebar Nav -->
+					<nav class="u-sidebar-nav">
+						<!-- Sidebar Nav Menu -->
+						<ul class="u-sidebar-nav-menu u-sidebar-nav-menu--top-level">
+							<!-- Dashboard -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="index.html">
+									<span class="icon-dashboard-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Dashboard</span>
+								</a>
+							</li>
+							<!-- End Dashboard -->
+							<!-- Heatmap -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="heatmap.html">
+									<span class="icon-heatmap-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Heatmap</span>
+								</a>
+							</li>
+							<!-- End Heatmap -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Website</small>
+							</li>
+
+							<!-- Promotions -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="promotion.html"
+								   data-target="#menuItemPromotion">
+									<span class="icon-promotion-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Promotions</span>
+									<span class="ti-angle-down u-sidebar-nav-menu__item-arrow"></span>
+								</a>
+
+								<ul id="menuItemPromotion" class="u-sidebar-nav-menu u-sidebar-nav-menu--second-level" style="display: none;">
+									<!-- Lists -->
+									<li class="u-sidebar-nav-menu__item">
+										<a class="u-sidebar-nav-menu__link" href="#">
+											<span class="u-sidebar-nav-menu__item-icon"></span>
+											<span class="u-sidebar-nav-menu__item-title">Lists</span>
+										</a>
+									</li>
+									<!-- End Lists -->
+								</ul>
+							</li>
+							<!-- End Promotions -->
+
+							<!-- News & Activities -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="news-activity.html">
+									<span class="icon-news-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">News & Activities</span>
+								</a>
+							</li>
+							<!-- End News & Activities -->
+
+							<!-- Blog -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="blog.html">
+									<span class="icon-blog-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Blog</span>
+								</a>
+							</li>
+							<!-- End Blog -->
+
+							<!-- Video -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="video.html">
+									<span class="icon-video-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Video</span>
+								</a>
+							</li>
+							<!-- End Video -->
+
+							<!-- Header -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="header.html"
+								   data-target="#menuItemAccountPages">
+									<span class="icon-header-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Header</span>
+								</a>
+							</li>
+							<!-- End Header -->
+
+							<!-- Footer -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="footer.html">
+									<span class="icon-footer-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Footer</span>
+								</a>
+							</li>
+							<!-- End Footer -->
+
+							<!-- Banner -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="banner.html">
+									<span class="icon-banner-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Banner</span>
+								</a>
+							</li>
+							<!-- End Banner -->
+
+							<!-- Pages -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="page.html">
+									<span class="icon-pages-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Pages</span>
+								</a>
+							</li>
+							<!-- End Pages -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Management</small>
+							</li>
+
+							<!-- Category -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="category.html">
+									<span class="icon-category-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Category</span>
+								</a>
+							</li>
+							<!-- End Category -->
+
+							<!-- Tag -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="tags.html">
+									<span class="icon-tag-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Tag</span>
+								</a>
+							</li>
+							<!-- End Tag -->
+
+							<!-- Media -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link active" href="media-library.html">
+									<span class="icon-media-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Media</span>
+								</a>
+							</li>
+							<!-- End Media -->
+
+							<!-- Landing Popup -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="landing_popup.html">
+									<span class="icon-landingPopup-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Landing Popup</span>
+								</a>
+							</li>
+							<!-- End Landing Popup -->
+
+							<!-- PDPA -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="pdpa.html">
+									<span class="icon-pdpa-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">PDPA</span>
+								</a>
+							</li>
+							<!-- End PDPA -->
+
+							<!-- Bitly -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-bitly-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Bitly</span>
+								</a>
+							</li>
+							<!-- End Bitly -->
+
+							<li class="u-sidebar-nav-menu__item">
+								<small class="px-4 u-sidebar-nav-menu__item-title text-uppercase fw-bold">Settings</small>
+							</li>
+
+							<!-- Custom CSS Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="custom-css-code.html">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom CSS Code</span>
+								</a>
+							</li>
+							<!-- End Custom CSS Code -->
+
+							<!-- Custom JS Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="custom-js-code.html">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom JS Code</span>
+								</a>
+							</li>
+							<!-- End Custom JS Code -->
+
+							<!-- Custom GA4 Code -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="custom-ga-code.html">
+									<span class="icon-code-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Custom GA4 Code</span>
+								</a>
+							</li>
+							<!-- End Custom GA4 Code -->
+
+							<!-- Facebook Chatbox -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="facebook-chatbot.html">
+									<span class="icon-facebook-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Facebook Chatbox</span>
+								</a>
+							</li>
+							<!-- End Facebook Chatbox -->
+
+							<!-- Sitemap & Robots -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="#">
+									<span class="icon-sitemap-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Sitemap & Robots</span>
+								</a>
+							</li>
+							<!-- End Sitemap & Robots -->
+
+							<!-- Maintenance Mode -->
+							<li class="u-sidebar-nav-menu__item">
+								<a class="u-sidebar-nav-menu__link" href="maintenance-mode.html">
+									<span class="icon-maintenance-icon u-sidebar-nav-menu__item-icon"></span>
+									<span class="u-sidebar-nav-menu__item-title">Maintenance Mode</span>
+								</a>
+							</li>
+							<!-- End Maintenance Mode -->
+
+						</ul>
+						<!-- End Sidebar Nav Menu -->
+					</nav>
+					<!-- End Sidebar Nav -->
+				</div>
+			</aside>
+			<!-- End Sidebar -->
+
+			<!-- Content -->
+			<div class="u-content">
+				<!-- Body -->
+				<div class="u-body-top py-8 position-absolute w-100">
+					<div class="row mb-5">
+						<div class="col-sm-12 col-xl-3">
+							
+						</div>
+					</div>
+				</div>
+				<!-- End Body -->
+				<!-- Content Body -->
+				<div class="u-body mt-4 mt-xl-4">
+					<div class="row">
+						<div class="col-md-12 mb-5">
+							<!-- Card -->
+							<div class="card h-100 rounded">
+								<!-- Card Header -->
+								<header class="card-header rounded-top border-bottom py-3">
+									<div class="row">
+										<div class="col-12 col-xl-6">
+											<h2 class="h4 card-header-title font-weight-medium fs-34">Media Library</h2>
+										</div>
+										<div class="col-12 col-xl-6 text-end pt-4 pt-xl-0">
+											<div class="row">
+												<div class="col-9">
+													<!-- Search -->
+													<div class="form-group form-outline">
+													  <input type="text" id="search" name="search" class="form-control rounded" placeholder="Search" />
+													  <label class="form-label" for="search">Search</label>
+													</div>
+													<!-- End Search -->
+												</div>
+												<div class="col-3">
+													<a href="#datatUploadImageModal" data-mdb-toggle="modal" class="btn btn-primary text-uppercase fs-18 py-2 px-2 rounded">
+											            <i class="btn-icon fa-solid fa-plus pr-1"></i>
+											            Add Image
+										            </a>
+										        </div>
+									        </div>
+										</div>
+									</div>
+								</header>
+								<!-- End Card Header -->
+
+								<!-- Card Body -->
+								<div class="card-body">
+									<!-- Filter Search -->
+									<div class="row">
+										<div class="col-12 col-xl-3">
+											<div class="form-group">
+												<select class="select">
+												  <option value="">All media items</option>
+												  <option value="1">One</option>
+												  <option value="2">Two</option>
+												  <option value="3">Three</option>
+												  <option value="4">Four</option>
+												  <option value="5">Five</option>
+												</select>
+												
+											</div>
+										</div>
+										<div class="col-12 col-xl-9 text-end">
+											<span class="px-3 text-primary text-end font-weight-medium">Date : <span class="datePreriodFilter">01/04/2023 - 05/04/2023</span></span>
+			
+											<a href="#dateFilterModalCenter" data-mdb-toggle="modal" class="btn btn-sm btn-outline-primary btn-with-icon text-uppercase mb-2 mr-2 mr-md-2 rounded" data-mdb-ripple-color="dark">
+									            <span class="btn-icon ti-calendar mr-2"></span>
+									            Date Filter
+								            </a>
+										</div>
+									</div>
+									<!-- End Filter Search -->
+									<div class="row mt-4">
+										<div class="col-12 media-lib">
+											<ul class="list-unstyled thumbnails text-center">
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="1" data-mdb-title="Media Image 1" data-mdb-alt="Media Image 1" data-mdb-caption="Media Image 1" data-mdb-desc="Media Image 1" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="1" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="2" data-mdb-title="Media Image 2" data-mdb-alt="Media Image 2" data-mdb-caption="Media Image 2" data-mdb-desc="Media Image 2" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="2" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="3" data-mdb-title="Media Image 3" data-mdb-alt="Media Image 3" data-mdb-caption="Media Image 3" data-mdb-desc="Media Image 3" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="3" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="3" data-mdb-title="Media Image 3" data-mdb-alt="Media Image 3" data-mdb-caption="Media Image 3" data-mdb-desc="Media Image 3" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="3" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="4" data-mdb-title="Media Image 4" data-mdb-alt="Media Image 4" data-mdb-caption="Media Image 4" data-mdb-desc="Media Image 4" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="4" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="4" data-mdb-title="Media Image 4" data-mdb-alt="Media Image 4" data-mdb-caption="Media Image 4" data-mdb-desc="Media Image 4" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="4" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="6" data-mdb-title="Media Image 6" data-mdb-alt="Media Image 6" data-mdb-caption="Media Image 6" data-mdb-desc="Media Image 6" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="6" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="7" data-mdb-title="Media Image 7" data-mdb-alt="Media Image 7" data-mdb-caption="Media Image 7" data-mdb-desc="Media Image 7" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="7" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="8" data-mdb-title="Media Image 8" data-mdb-alt="Media Image 8" data-mdb-caption="Media Image 8" data-mdb-desc="Media Image 8" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="8" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="9" data-mdb-title="Media Image 9" data-mdb-alt="Media Image 9" data-mdb-caption="Media Image 9" data-mdb-desc="Media Image 9" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="9" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="10" data-mdb-title="Media Image 10" data-mdb-alt="Media Image 10" data-mdb-caption="Media Image 10" data-mdb-desc="Media Image 10" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="10" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="11" data-mdb-title="Media Image 11" data-mdb-alt="Media Image 11" data-mdb-caption="Media Image 11" data-mdb-desc="Media Image 11" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="11" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="12" data-mdb-title="Media Image 12" data-mdb-alt="Media Image 12" data-mdb-caption="Media Image 12" data-mdb-desc="Media Image 12" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="12" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="13" data-mdb-title="Media Image 13" data-mdb-alt="Media Image 13" data-mdb-caption="Media Image 13" data-mdb-desc="Media Image 13" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="13" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+												<li>
+													<a href="#" class="thumbnail view-button" data-mdb-index="14" data-mdb-title="Media Image 14" data-mdb-alt="Media Image 14" data-mdb-caption="Media Image 14" data-mdb-desc="Media Image 14" data-mdb-label="https://picsum.photos/200/300" data-mdb-id="14" data-mdb-img-info="8 Feb 2023, 02:43 PM|admin|/Page|siam-tv-0per-10m.png|image/png|456 KB|1240 x 480 pixels" data-mdb-img="static/images/media-lib/010.png">
+													<img class="img-fluid" src="static/images/media-lib/01.png?v=1" alt="" width="124" />
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<!-- End Card Body -->
+							</div>
+							<!-- End Card -->
+						</div>
+					</div>
+				</div>
+				<!-- End Content Body -->
+			</div>
+			<!-- End Content -->
+		</main>
+		<!-- End Main -->
+
+		<!-- Date Filter Modals -->
+		<div class="modal fade" id="dateFilterModalCenter" tabindex="-1" role="dialog" aria-labelledby="dateFilterModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header ">
+						<h5 class="modal-title fs-24 font-weight-medium" id="dateFilterModalCenterTitle">Date Filter</h5>
+						<button type="button" class="close" data-mdb-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" class="fs-32">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div class="form-row">
+							<div class="col-6">
+								<!-- Input with Start Date -->
+								<div class="form-group">
+									<label for="startDate" class="fs-18 font-weight-medium">Start Date</label>
+									<div class="form-outline datepicker" data-mdb-format="dd/mm/yyyy">
+									  <input id="startDate" name="startDate" class="form-control rounded-sm" type="text" placeholder="dd/mm/yyyy" maxlength="10">
+									</div>
+									
+								</div>
+
+								<!-- End Input with Start Date -->
+							</div>
+							<div class="col-6">
+								<!-- Input with Start Date -->
+								<div class="form-group">
+									<label for="endDate" class="fs-18 font-weight-medium">End Date</label>
+									<div class="form-outline datepicker" data-mdb-format="dd/mm/yyyy">
+									  <input id="endDate" name="endDate" class="form-control rounded-sm" type="text" placeholder="dd/mm/yyyy" maxlength="10">
+									</div>
+								</div>
+								<!-- End Input with Start Date -->
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer border-0 ">
+						<button type="button" class="btn btn-primary btn-apply-filter fs-18">Apply</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Vertically Centered Modals -->
+
+
+		<!-- Modal UploadImage details -->
+		<div class="modal fade" id="datatUploadImageModal" data-mdb-backdrop="static" data-mdb-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-xl modal-dialog-centered">
+		    <div class="modal-content">
+		      <form id="uploadImageNew">
+		      <div class="modal-header pb-0">
+		      	<h5 class="modal-title fs-24 font-weight-medium" id="modalHeaderUploadImage">Upload Image</h5>
+
+		        <button type="button" class="btn-close fs-12 ms-4 pt-3" data-mdb-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body px-7 h-100" id="modalBodyUploadImageNew">
+		      		
+		      		<div class="row">
+		      			<div class="col-12 col-xl-7 uploadImgBox" data-id="New">
+		      				<div class="align-self-start boxImageEmpty position-relative" id="boxImageEmpty">
+		      					<img class="img-fluid" id="isImageNew" src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" style="display:none;">
+		      					<div class="position-absolute top-50 start-50 translate-middle" id="isImageNewEmpty"><i class="far fa-image fa-7x text-disabled"></i></div>
+		      				</div>
+		      				<div class="align-self-end mt-4">
+		      					<div class="h-100">
+		      						<button type="button" id="btnImgUploadNew" class="btn btn-sm btn-outline-primary text-uppercase fs-18 py-2 px-2 rounded align-bottom">Upload Image</button>
+									<input type="file" id="imgUploadNew" name="imgUploadNew" accept="image/*" style="display: none" />
+									<a href="javascript:;" class="text-danger ms-1 align-bottom removeImage" data-image-id="isImageNew" style="display:none"><i class="far fa-trash-can text-danger"></i> <span class="font-weight-medium mx-2">Remove image</span></a>
+		      					</div>
+		      				</div>
+		      			</div>
+
+		      			
+
+		      			
+		      			<div class="col-12 col-xl-5">
+		      				<ul class="list-unstyled">
+		      					<li>Uploaded on: <span class="font-weight-medium" id="uploadOn">8 Feb 2023, 02:43 PM</span></li>
+				        		<li>Uploaded by: <span class="font-weight-medium text-primary" id="uploadBy">admin</span></li>
+				        		<li>Uploaded to: <span class="font-weight-medium text-primary" id="uploadTo">/Page</span></li>
+				        		<li>File name: <span class="font-weight-medium" id="fileName">siam-tv-0per-10m.png</span></li>
+				        		<li>File type: <span class="font-weight-medium" id="fileType">image/png</span></li>
+				        		<li>File size: <span class="font-weight-medium" id="fileSize">456 KB</span></li>
+				        		<li>Dimensions: <span class="font-weight-medium" id="fileDimensions">1240 x 480 pixels</span> </li>
+		      				</ul>
+		      				<hr>
+		      				<!-- Alternative Text -->
+							<div class="form-group form-outline">
+							  <input type="text" id="alternativeText" name="alternativeText" class="form-control rounded" placeholder="Alternative Text" />
+							  <label class="form-label" for="alternativeText">Alternative Text</label>
+							</div>
+							<!-- End Alternative Text -->
+							<!-- Title -->
+							<div class="form-group form-outline">
+							  <input type="text" id="title" name="title" class="form-control rounded" placeholder="Title" />
+							  <label class="form-label" for="title">Title</label>
+							</div>
+							<!-- End Title -->
+							<!-- Caption -->
+							<div class="form-group form-outline">
+							  <textarea class="form-control" id="caption" name="caption" rows="2"></textarea>
+  							  <label class="form-label" for="caption">Caption</label>
+							</div>
+							<!-- End Caption -->
+							<!-- Description -->
+							<div class="form-group form-outline">
+							  <textarea class="form-control" id="description" name="description" rows="2"></textarea>
+  							  <label class="form-label" for="description">Description</label>
+							</div>
+							<!-- End Description -->
+
+							<div class="form-group">
+								<div class="alert fade mt-5 d-none" id="containerAlertCopy" role="alert" data-mdb-color="primary" data-mdb-hidden="true" data-mdb-autohide="true" data-mdb-delay="2000" data-mdb-position="top-right"data-mdb-width="100%">URL copied!</div>
+								<div class="row">
+									<div class="col-9">
+										<!-- Label -->
+										<div class="form-group form-outline">
+										  <input type="text" id="labelLink" name="labelLink" class="form-control rounded" value="https://picsum.photos/200/300" readonly placeholder="Label" />
+										  <label class="form-label" for="labelLink">Label</label>
+										</div>
+										<!-- End Label -->
+									</div>
+
+									<div class="col-3"><button type="button" id="copyLink" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded btn-block clipboard" data-mdb-clipboard-target="#labelLink"><i class="far fa-clipboard me-2"></i> Copy</button></div>
+								</div>
+							</div>
+		      			</div>
+		      		</div>
+		      	
+		      </div>
+		        <div class="modal-footer border-0 pt-0">
+					<button type="button" class="btn btn-primary btn-upload fs-18">Upload</button>
+				</div>
+			</form>
+		    </div>
+		  </div>
+		</div>
+		<!-- End Modal UploadImage details -->
+
+		<!-- Modal Attachment details -->
+		<div class="modal fade" id="dataAttachmentModal" data-mdb-backdrop="static" data-mdb-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-xl modal-dialog-centered">
+		    <div class="modal-content">
+		      <div class="modal-header pb-0">
+		      	<h5 class="modal-title fs-24 font-weight-medium" id="modalHeaderAttachment">Attachment details</h5>
+		      	<div class="ms-auto">
+		      		<a href="#prev" class="text-muted"><i class="fas fa-angle-left"></i></a>
+		      	    <a href="#next" class="text-muted"><i class="fas fa-angle-right"></i></a>
+		        </div>
+		        <button type="button" class="btn-close fs-12 ms-4 pt-3" data-mdb-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body px-7 h-100" id="modalBodyUploadImageView">
+		      		
+		      		<div class="row">
+
+		      			<div class="col-12 col-xl-7">
+		      				<div class="align-self-start">
+		      					<img class="img-fluid" id="isImageView" src="static/images/media-lib/010.png">
+		      				</div>
+		      				<!-- <div class="align-self-end mt-4">
+		      					<div class="h-100">
+									<a href="javascript:;" class="text-danger ms-1 align-bottom delete-button"><i class="far fa-trash-can text-danger"></i> <span class="font-weight-medium mx-2">Remove image</span></a>
+
+		      					</div>
+		      				</div> -->
+		      			</div>
+		      			
+		      			<div class="col-12 col-xl-5">
+		      				<ul class="list-unstyled">
+		      					<li>Uploaded on: <span class="font-weight-medium" id="uploadOn">8 Feb 2023, 02:43 PM</span></li>
+				        		<li>Uploaded by: <span class="font-weight-medium text-primary" id="uploadBy">admin</span></li>
+				        		<li>Uploaded to: <span class="font-weight-medium text-primary" id="uploadTo">/Page</span></li>
+				        		<li>File name: <span class="font-weight-medium" id="fileName">siam-tv-0per-10m.png</span></li>
+				        		<li>File type: <span class="font-weight-medium" id="fileType">image/png</span></li>
+				        		<li>File size: <span class="font-weight-medium" id="fileSize">456 KB</span></li>
+				        		<li>Dimensions: <span class="font-weight-medium" id="fileDimensions">1240 x 480 pixels</span> </li>
+		      				</ul>
+		      				<hr>
+		      				<!-- Alternative Text -->
+							<div class="form-group form-outline">
+							  <input type="text" id="alternativeText" name="alternativeText" class="form-control rounded" placeholder="Alternative Text" />
+							  <label class="form-label" for="alternativeText">Alternative Text</label>
+							</div>
+							<!-- End Alternative Text -->
+							<!-- Title -->
+							<div class="form-group form-outline">
+							  <input type="text" id="title" name="title" class="form-control rounded" placeholder="Title" />
+							  <label class="form-label" for="title">Title</label>
+							</div>
+							<!-- End Title -->
+							<!-- Caption -->
+							<div class="form-group form-outline">
+							  <textarea class="form-control" id="caption" name="caption" rows="2"></textarea>
+  							  <label class="form-label" for="caption">Caption</label>
+							</div>
+							<!-- End Caption -->
+							<!-- Description -->
+							<div class="form-group form-outline">
+							  <textarea class="form-control" id="description" name="description" rows="2"></textarea>
+  							  <label class="form-label" for="description">Description</label>
+							</div>
+							<!-- End Description -->
+
+							<div class="form-group">
+								<div class="alert fade mt-5 d-none" id="containerAlertCopy" role="alert" data-mdb-color="primary" data-mdb-hidden="true" data-mdb-autohide="true" data-mdb-delay="2000" data-mdb-position="top-right"data-mdb-width="100%">URL copied!</div>
+								<div class="row">
+									<div class="col-9">
+										<!-- Label -->
+										<div class="form-group form-outline">
+										  <input type="text" id="labelLink" name="labelLink" class="form-control rounded" value="https://picsum.photos/200/300" readonly placeholder="Label" />
+										  <label class="form-label" for="labelLink">Label</label>
+										</div>
+										<!-- End Label -->
+									</div>
+
+									<div class="col-3"><button type="submit" id="copyLink" class="btn btn-sm btn-outline-primary btn-with-icon py-2 text-uppercase mb-2 mr-2 mr-md-2 rounded btn-block clipboard" data-mdb-clipboard-target="#labelLink"><i class="far fa-clipboard me-2"></i> Copy</button></div>
+								</div>
+							</div>
+		      			</div>
+		      		</div>
+		      	
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!-- End Modal Attachment details -->
+
+		<!-- Modal Delete -->
+		<div class="modal fade" id="dataConfirmModal" data-mdb-backdrop="static" data-mdb-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered">
+		    <div class="modal-content">
+		      <div class="modal-header border-0">
+
+		        <button type="button" class="btn-close fs-12" data-mdb-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body text-center px-7" id="modalBodyConfirm">
+
+		      	
+		      </div>
+		      <div class="modal-footer border-0">
+		        <button type="button" class="btn btn-white text-muted text-uppercase fs-18 rounded" data-mdb-dismiss="modal">Cancel</button>
+		        <a href="#" class="btn btn-danger text-uppercase fs-18 py-2 px-4 rounded" id="dataConfirmOK">Delete</a>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<!-- Toasts -->
+
+		<input type="text" name="alert_message" id="alert_message" value="toasts-success-notification, <i class='fas fa-arrow-right-from-bracket pe-2'></i> File has been delete successfully!">
+
+		<div class="toast fade mx-auto"
+		  id="toasts-success-notification"
+		  role="alert"
+		  aria-live="assertive"
+		  aria-atomic="true"
+		  data-mdb-autohide="true"
+		  data-mdb-delay="2000"
+		  data-mdb-position="top-right"
+		  data-mdb-append-to-body="true"
+		  data-mdb-stacking="true"
+		  data-mdb-width="350px"
+		  data-mdb-color="success"
+		>
+		  <div class="toast-body fs-20"></div>
+		</div>
+
+		<div class="toast fade mx-auto"
+		  id="toasts-danger-notification"
+		  role="alert"
+		  aria-live="assertive"
+		  aria-atomic="true"
+		  data-mdb-autohide="true"
+		  data-mdb-delay="2000"
+		  data-mdb-position="top-right"
+		  data-mdb-append-to-body="true"
+		  data-mdb-stacking="true"
+		  data-mdb-width="350px"
+		  data-mdb-color="danger"
+		>
+		  <div class="toast-body fs-20"></div>
+		</div>
+
+		<div class="toast fade mx-auto"
+		  id="toasts-warning-notification"
+		  role="alert"
+		  aria-live="assertive"
+		  aria-atomic="true"
+		  data-mdb-autohide="true"
+		  data-mdb-delay="2000"
+		  data-mdb-position="top-right"
+		  data-mdb-append-to-body="true"
+		  data-mdb-stacking="true"
+		  data-mdb-width="350px"
+		  data-mdb-color="warning"
+		>
+		  <div class="toast-body fs-20"></div>
+		</div>
+
+
+
+		<!-- Global Vendor -->
+		<script src="static/libs/jquery/dist/jquery.min.js"></script>
+		<script src="static/libs/jquery-migrate/jquery-migrate.min.js"></script>
+		<script src="static/libs/popper.js/dist/umd/popper.min.js"></script>
+		<script src="static/libs/bootstrap-4.3.0/dist/js/bootstrap.min.js"></script>
+		<script src="static/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+		
+		<!-- MDB -->
+		<script src="static/libs/md-bootstrap/js/mdb.min.js"></script>
+		<script src="static/libs/md-bootstrap/js/modules/charts.min.js"></script>
+		<script src="static/libs/md-bootstrap/js/modules/datepicker.min.js"></script>
+		<script src="static/libs/md-bootstrap/plugins/js/all.min.js"></script>
+
+		<!-- Plugins -->
+		<script src="static/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="static/libs/chart.js/dist/Chart.min.js"></script>
+		<script src="static/libs/chartjs-plugin-style/dist/chartjs-plugin-style.min.js"></script>
+
+		<!-- Initialization  -->
+		<script src="static/js/sidebar-nav.js"></script>
+		<script src="static/js/main.js?v=0.0.3"></script>
+		<script src="static/js/media-lib/main.js?v=0.0.32"></script>
+	</body>
+	<!-- End Body -->
+</html>
