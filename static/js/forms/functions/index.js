@@ -1,0 +1,14 @@
+import './config/index.js';
+import './utils/index.js';
+import './updatebankaccountform/index.js';
+import './applystatus/index.js';
+import './updatesalaryform/index.js';
+import './applyform/index.js';
+import './accepttermcondition/index.js';
+import './applyfullform/index.js';
+import './previewpage/index.js';
+import './uploadimageform/index.js';
+import './otppage/index.js';
+import './verifykyc/index.js';
+import './acceptncb/index.js';
+import './applyform/thankyou/index.js';

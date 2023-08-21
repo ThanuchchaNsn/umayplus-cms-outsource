@@ -1,1 +1,0 @@
-# umayplus-cms-outsource
